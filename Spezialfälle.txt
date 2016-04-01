@@ -1,0 +1,113 @@
+Specials:
+
+Mehr Endeinträge?
+
+Zaubertrank -> 2 Angriffe pro Rund in einem Kampf!
+Abfrage ob TP >0!
+EintippOption im Labyrinth
+
+				999 -> Enddialog
+008 -> Gepäckabfrage!
+				010 -> Kampf
+					Fledermaus:
+					Mut: 8                   Lebenspunkte: 11
+					Attacke: 1-2             Trefferpunkte:1W
+					Parade:1-2               Rüstungsschutz:0
+14 -> Abfrage Mendrak
+				21 -> Mut+1
+				26 -> 4 Lebenspunkte abziehen
+				27 -> Gepäck + Knochen + Pergament
+				29 -> Gepäck + Smaragde
+				32 -> Kampf
+					Insektenkrieger
+					Mut: 9                   Lebenspunkte: 9
+					Attacke: 1-2             Trefferpunkte:1W+1
+					Parade:1-2               Rüstungsschutz:2
+37 -> Geschicklichkeitsprobe
+				****51 -> Inventar + Zeug (Schwert, Rüstung)
+51 -> Mendraks Ruf = true
+				52 -> Inventar + Goldklumpen
+55 -> Inventar ablegen
+63 -> Wertabfrage 8bezug 559
+				66 -> Inventar + Schlangenstab
+72 -> Glücksgöttin Segen / Altar nun verboten
+				73 -> +2 HP
+78 -> Mendrak ruf mgl
+83 -> Mendrak Ruf weg
+				84 -> Kampf
+					Nomade:
+					Mut: 11          Lebenspunkte: 18
+					Attacke: 1-3     Trefferpunkte: 1W + 4
+					Parade: 1-2      Rüstungsschutz: 2
+				87 -> Inventory + Spruchrolle 
+				89 -> -2 TP
+91 -> Mendrak prüfen
+				93 -> Inventar+Zaubertrank
+94 -> Inventar+Dolch+5Dukaten+Dolch+weiße Pfeiffe
+96 -> Geschicklichkeitsprobe
+97 -> -Mendrak
+				99 -> -7 TP
+100/125 -> Automatische Abfrage -> 125 weglassen?
+101 -> Mut misslingt automatisch bei 194!
+				104 -> Kampf
+				Insektenkrieger:
+					Mut:     12              Lebenspunkte:   12
+					Attacke: 1-3             Trefferpunkte:  1W+2
+					Parade:  1-2             Rüstungsschutz: 2
+107 -> Abfrage Mendrak
+112 -> -Mendrak
+				113 -> Kampf
+					Uriath
+					Mut:     15              Lebenspunkte:   35
+					Attacke: 1-4             Trefferpunkte:  1W+4
+					Parade:  1-3             Rüstungsschutz  4
+				199 -> Kampf gegen den Magier
+				Werte des Magiers:
+					Mut: 13 Lebenspunkte: 30
+					Attacke Morgenstern : 1-4 Trefferpunkte : 1W + 2
+					Attacke Säbel: 1-3 Trefferpunk;te: 1 W + 2
+					Parade: 1-3 Rüstungsschutz: 3
+					Außerdem schleudert. der Magier jede dritte Kampfrunde einen magischen Feuerball, der 1 W Lebenspunkte Schaden anrichtet und nicht pariert werden kann
+119 -> Dukaten prüfen
+124 -> -Mendrak
+127 -> Turm Option deaktivieren!
+128 -> -10 Dukaten
+				132 -> Kampf
+					Ratte:
+					Mut: 8 Lebenspunkte : 9
+					Attacke: 1-2 Trefferpunkte: 1W
+					Parade: 1-2 Rüstungsschutz: 1
+					eventuell erneutes kämpfen verhindern?
+133 -> Mendrak abfragen
+136 -> Geld prüfen!
+				138 -> Kampf
+					Gottheit
+					Mut: 9 Lebenspunkte: 20
+					Attacke Säbel: 1-4 Trefferpunkte: 1W+2
+					Attacke Hellebarde: 1-4 Trefferpunkte: 1W+4
+					Parade: 1-2 Rüstungsschutz: 4
+139 -> Inventar + Geschnitzte Würfel + Stück Pergament
+				140 -> Kampf
+					Die Werte der Riesenspinne:
+					Mut: 14 Lebenspunkte : 9 
+					Attacke: 1-2 Trefferpunkte: 1W+1
+					Parade: 1-2 Rüstungsschutz: 1
+147 -> Eintipp Option!
+148 -> Geschicklichkeitsprobe
+149 -> Mendrak prüfen
+158 -> Inventar + Karte + Klappmesser + 25Dukaten
+159 -> +3TP, wenn Flasche -> Inventar+Heiltrank(3TP)
+				163 -> Mut-1
+164 -> Eingabe?
+170 -> Eingabe
+177 -> -Mendrak
+182 -> d6 Wurf
+				183 -> -5TP
+190 -> Kein Geheimtür mehr suchen
+				194 -> Kampf 2
+					Insektenkriegern :
+					Mut: 10 Lebenspunkte : 11 , 12
+					Attacke: 1-3 Trefferpunkte: 1W + 2
+					Parade 1-2 Rüstungsschutz: 2
+				195 -> -1w6 TP
+198 -> Inventar+Elfenbein Vogeltänzerin

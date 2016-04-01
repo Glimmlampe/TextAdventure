@@ -1,0 +1,593 @@
+000;Um das Spiel zu starten tippen sie eine Zahl (um es zu beenden tippen sie bitte eine 0 ein.
+
+001; ...irgend etwas hat dich geweckt! Eben noch hast du fest geschlafen, aber plötzlich war da ein vager Traum, ein fremder Gedanke, der dich aufgeschreckt hat. Noch etwas benommen setz du dich im Bett auf und versuchst dir über die Ursache klarzuwerden. Das Zimmer liegt ruhig und friedlich da, die Uhr zeigt drei Uhr morgens. Du spürst, wie sich dir jemand geistig mitteilen will, ein unerklärlicher, logisch nicht verständlicher Vorgang, aber du weißt sicher, daß dich jemand ruft. Du konzentrierst dich und merkst, daß diese geistigen Impulse von unten kommen, offenbar aus dem Keller.
+Wie wirst du auf diese außergewöhnliche Kontaktaufnahme reagieren:
+ Ignorieren und weiterschlafen (9)
+ Den Impulsen folgen und nachforschen (17)
+
+002;Du stößt den Kadaver mit dem Fuß beiseite und setz deinen Weg fort. Die Stützbalken sind schon relativ alt, aber wohl noch brauchbar. Die Luft riecht leicht muffig, und ein kühler Windhauch kommt aus der Tiefe.
+Nach kurzer Zeit zweigt rechts ein kleiner Seitengang ab. Willst du ihn erkunden (148) oder dem Hauptgang folgen (44).
+
+003;Während das Schnarchen des Männleins durch die Höhle hallt, gelingt es dir ohne Zwischenfälle, dich vorbeizuschleichen (70).
+
+004;Du kommst an eine Stelle, von der drei Gänge abzweigen, nach Norden (38), nach Sden (12) und einer nach Südosten (20).
+
+005;Willst du die Malereien begutachten (21) oder die Statuen untersuchen (29).
+
+006;Du kommst in einen breiten Korridor, dem du etwa 20 Meter nach Norden folgst. Dann stehst du am Ende vor drei Türen, je eine im Norden, Osten und Westen. In jeder befindet sich eine kleine Klappe zum Hindurchsehen. Von der Decke hängt ein silberner Gong (14).
+ 
+007;Du öffnest die Falltür und siehst unter dir einen dunkelen Raum, dessen Boden mit einer dünnen Schicht Stroh bedeckt ist, die deinen Sprung dämpfen würde. Möchtest du hinunterspringen (23) oder dich woanders umsehen (15).
+
+008;Du öffnest die Tür und betrittst den Bereich der Verliese. Als du die Tür wieder schließt, schrillt eine Alarmsirene durch die Burg. Schon bald hörst du Unruhe und Schritte hinter dir.Du wirst dich beeilen müssen. In einem der Verliese, hinter magischen Gittern eingesperrt, findest du deinen Auftraggeber. Hast du den Stab der Schlange dabei (189) oder nicht (24)?
+ 
+009;Am nächsten Morgen wachst du auf und gehst deinen normalen  Beschäftigungen nach. Etwas mehr Abenteuerlust hätte dir vielleicht neue Perspektiven eröffnet. ENDE
+
+010;Du entzündest deine Lampe und gehst langsam und vorsichtigden Stollen Das Bergwerk scheint schon schon längere Zeit unbenutzt zu sein. Und es haben sich inzwischen neue Bewohner eingefunden! Eine Fledermaus fühlt sich durch dein Eindringen gestört und greift dich an.
+ Fledermaus:
+ Mut: 8                   Lebenspunkte: 11
+ Attacke: 1-2             Trefferpunkte:1W
+ Parade:1-2               Rüstungsschutz:0
+ 
+011;Mit einem mächtigen Satz erreichst du den Boden der Höhle. Keine Menschenseele ist zu sehen, als einziges Geräusch hörst du das Tropfen einiger Kondenswasserstellen. Möchtest du durch das Portal (147) oder den Nebengang (19) gehen?
+ 
+012;Dieser Gang endet nach ungefähr 36 Metern in einer Sackgasse. Da du hier kein Fortkommen mehr siehst, kannst du umkehren (4) oder in deiner  hoffnungslosen Verzweiflung nach Mendrag rufen (97).
+
+013;Dir eröffnet sich ein atemberaubender Anblick:Dies scheint der Tempel einer mächtigen und reichen Gottheit zu sein. Ein prächtig geschmückter Altar, dahinter das imposante Standbild eines Insektengottes. Die Wände sind mit Gemälden verziehrt, in Nischen stehen kleine Statuen. Links neben dem Altar füht eine Treppeabwärts, rechts davon befindert sich eine Tür.
+Nach einigen Momenten anfänglichen Staunens beschließt du, dich den Wänden zu widmen (5), den Altar zu untersuchen (47), in die Krypta hinabzusteigen (133) oder den Ausgang benutzen (6).
+ 
+014;Möchtest du nun die Klappe in der westlichen Tür öffnen (22), durch die Tür treten (8), die Klappe im Norden öffnen (30), durch die Tür gehen (56), oder gar durch die die Klappe im Osten schauen (85), die Tür selbst benutzen (100), den Gong bedienen (64) oder Mendrag um Hilfe rufen (48), falls du das nicht bereits getan hast.
+
+015;Du kommst in eine große Höhle. Ringsum siehst du verschiedene Ausgänge. Du kannst eine steile Rampe empor in die Höhe steigen (118), durch ein prächtig geschmücktes Portal gehen (156), eine kleine Holztür öffnen (32), eine Falltür im Boden untersuchen (7) oder einen alten verstaubten Seitengang benutzen (49).
+
+016;Du stürzt dich in die erfrichenden Fluten und planschst eine Weile fröhlich herum. Der Erholungswert ist so groß, daß du zwei Punkte zu deinen Lebenspunkten addieren darfst. Nach etwa zehn Minuten stellt sich die Frage: Weitermachen (195) oder Aufhören (90).
+
+017;Du folgst der inneren Stimme, die dich in den Keller führt. Dort stellst du Erstaunliches fest:
+Wo gestern noch dein altes Fahrrad stand, führt nun eine mit Fackeln beleuchtete Treppe ins Ungewisse. Willst du nun gleich wieder umkehren und dich wieder ins Bett legen (9), kühn die Treppe hinuntergehen (43), vor einem solchen Abstieg noch etwas Ausrüstung mitnehmen (35) oder -wer weiß, was von unten Gefährliches kommen mag- vorsichtshalberdas Licht ausknipsen (25).
+
+018;Ein sich langsam emporwindendes Tal führt dich deinem Ziel entgegen (157)
+
+019;Nach einigen Metern erweitert sich der Gang zu einer kleinen Höhle. Auf einer aus Stein gehauenen Bank schläft ein ungefähr 1,52 m großes, altes, buckliges Männlein den Schlaf des Gerechten (oder ungerechten, in dieser Gegend weiß man das nie so genau).
+Du kannst dich vorsichtig an ihm vorbeischleichen (3), das Männlein aufwecken (45), es im Schlaf ausrauben (37) oder, jedes Risiko vermeiden, zum Schwert greifen und zuschlagen (27).
+
+020;Der aus Fels gehauene Gang führt dich 18 Meter nach Südosten, wo er im rechten Winkel nach links abknickt. Nach weiteren 18 Metern kommst du auf eine Kreuzung (88).
+
+021;Auf den Bildern sind bewegende Kampfszenen aus der gloreichen Geschichte des Insektenvolkes abgebildet. Offenbar haben sie leicht magische Fähigkeiten, denn der Mut eines Beobachters, also auch deiner wird um einen Punkt erhöht (39).
+
+022;Durch das kleine Türfenster siehst du einige Treppenstufen, die in ein finsteres Verlies hinunterführen. Undeutlich lassen sich Ketten und Gitter erkennen (91)
+
+023;Mit einem kühnen Sprung gelangst du nach unten. Du bist in einem Verlies ohne Ausgang oder Fluchtmöglichkeit. In den Ecken liegen die Skelette deiner Vorgänger. Allerdings ist bestimmt keiner von ihnen freiwillig in die Falle gegangen. ENDE
+
+024;"Unglückseliger!" brüllt der Geist in seinem Verlies."Nun bin ich endgültig verloren! Schon in Kürze wird mich mein Feind vernichten."
+In diesem Moment wird die Eingangstür aufgerissen, und Insektenkrieger drängen in den Raum."Lauf schnell", ruft Mendrag,"ich werde sie noch kurze Zeit aufhalten können, links hinter dir befindet sich ein Ausgang."
+Schnell wendest du dich um und fliehst. Du gelangst unbehelligt ins Freie und verläßt in Windeseile das Gebiet der Burg, die dir beinahe  zum Verhängnis geworden wäre.
+Der Rückweg nach Hause ist dir Versperrt, und du wirst dich in dieser fremden Welt zurechtfinden müssen.
+ENDE
+
+025;Als du den Schalter betätigst, erlöschen Lampe und Fackeln. Du stehst im Dunkeln.
+Es passiert nichts.
+Nach einiger Zeit entschließt du dich bangen Herzens, wieder Licht zu machen, und siehe da, der Keller sieht aus wie gewohnt. Jetz wirst du nie ergründen, was hier geschehen ist.
+ENDE
+
+026;Dir gelingt es nicht mehr rechtzeitig, zur Seite zu springen, als plötzlich ein gebrochener Balken und ein Haufen Steine von oben herabrasseln. Durch diesen Unfall verlierst du 4 Lebenspunkte. Nur mühsam kannst du dich wieder zum Hauptgang vorarbeiten (44).
+
+027;Mit einem mächtigen Schwertsteich schlägst du das alte Männchen mittendurch. Während das unschuldige Blut verströmt, durchsuchst du die Höhle. Dabei findest du einige aus Knochen Geschnizte Würfel und ein unbenutztes Stück Pergament. Danach verläßt du die Höhle (70).
+
+028;Der feuchte Gang verläuft ungefähr 18 m nach Südwesten, um dort nach Nordwesten abzubiegen. Du folgst ihm weitere 18 m und kommst an eine Einmündung (4).
+
+029;Interessiert betrachtest du die verschiedenen Statuen. Sie stellen Götter und Helden der Insekten dar. Eine Figur ziehe im besonderen Maße deine Aufmerksamkeit auf sich:
+Ihre Augen sind aus Smaragden gefertigt. Leicht kannst du die beiden Steine entfernen und deiner Ausrüstung einverleiben. Sie haben einen Wert von 22 bzw. 31 Dukaten (39).
+
+030;Durch die Klappe blickst du in eine unwirkliche blaue Wolke, in der rote Funken durcheinanderwirbeln. Alles macht einen sehr unrealen Eindruck, und du kannst keine klaren Konturen erkennen (91).
+
+031;Der Weg führt weiter in Richtung Osten. Im Bergland ringsum bemerkst du nichts Auffälliges (172).
+
+032;Du betrittst durch die Holztür einen kleinen Nebenraum. Auf einem Ruhelager schläft ein Insektenkrieger. Besser gesagt, er schlief. Dein Eintreten hat ihn geweckt. Er greift zur Waffe, und du mußt dich deiner Haut wehren:
+ Mut: 9                   Lebenspunkte: 9
+ Attacke: 1-2             Trefferpunkte:1W+1
+ Parade:1-2               Rüstungsschutz:2
+Falls du gewinnst, drücke (41) (für Kampfregeln drücke 200).
+
+033;Nach ungefähr 6 km Fußmarsch erreichst du eine verfallene Gebäudegruppe. Im schmalen Schatten einer Palme liegen die Trümmer eines ehemaligen Stalles. Rechter Hand ist ein Brunnen. Daneben erhebt sich das noch halbwegs gut erhaltene Haupthaus.
+Was willst du dir nun näher anschauen: Das Haus (76), den Stall (42), den Brunnen (58) oder die Palme (50)?
+
+034;Als du die magische Zahl aussprichst, ertönt ein leises Summen, und die Umgebung verschwimmt vor deinen Augen. Du stehst auf einmal beeindruckenden Gartenraum, der durch Fenster in der Decke beleuchtet und mit zwei Springbrunnen bewässert wird. Zwei Zuflüsse aus den Brunnen speisen ein Becken, das zum Baden lockt.\nZwei Türen führen aus dem Raum. Die im Norden iste blaugelb gestreift, die im Osten ist braun mit einer Roten Inschrift in roten Buchstaben:\n\tZutritt nur für Priester.
+Was wirst du jetzt tun:
+Ein Bad im Schwimmbecken nehmen (16), dir einen Strauß Blumen pflücken (185), die nördliche (6) oder die östliche (13) Tür benutzen.
+
+035;Du darfst alles mitnehmen, was sich in deinem Keller befindet und du  für sinnvoll erachtest. Achte darauf, daß du auch alles allein tragen kannst, und notiere jedes Stück auf deiner Ausrüstungsliste. Dann begibst du dich in Richtung Treppe (43).
+
+036;Im letzten Moment kannst du zur Seite springen, als neben dir ein Balken und ein Haufen Schutt niederstürzt. Leicht benommen und eingestaubt arbeitest du dich rückwärts heraus und folgst wieder dem Hauptgang (44).
+
+037;Vorsichtig beginnst du, das Männlein zu durchsuchen. Prüfe deine  Geschicklichkeit (die Regeln dazu bekommst du wenn du 199 eingibst)
+Falls du geschickt genug bist (139), sonst (45).
+
+038;Hier treffen Gänge aus drei Richtungen aufeinander. Wohin willst du dich wenden? Nach Norden (54), nach Osten (46) oder nach Süden (4)?
+
+039;Willst du als nächstes den Altar anschauen (47), in die Krypta hinabsteigen (133) oder hinausgehen (6). 
+
+040;Der Durst fängt an, dich zu quälen. Nur noch mühsam kannst du die Richtung halten. Die Vögel über dir ziehen immer tiefere Kreise. Dein kühler Keller kommt dir jetzt wie das Paradies vor (95).
+
+041;Du untersuchst die Leiche und den Raum und findest einige Heller in einer Gürteltasche, außerdem ein in Leder gebundenes Büchlein voll obszöner Zeichnungen aus der Insektenwelt. Leicht enttäuscht verläßt du den Raum wieder, um die Rampe emporzusteigen (118), durch das Portal zu gehen (156), die Falltür zu öffnen (7) oder den staubigen Seitengang zu untersuchen (49).
+
+042;Der Stall besteht nur noch aus einem Haufen vermoderter Bretter und diversen übelriechenden Abfallhaufen. Leicht angeekelt wendest du dich ab, um zum Haus zu gehen (76), den Brunnen in Augenschein zu nehmen (58) oder um die Palme zu begutachten (50).
+
+043;Gang und Treppe sind in massiven Fels gehauen worden. Nach einigen Minuten vorsichtigen Abstiegs fühlst du dich plötzlich unsicher. Der Boden gibt leicht nach, die Umgebung verschwimmt vor deinen Augen, und du verlierst die Besinnung (51).
+
+044;Du dringst weiter ins Bergwerk vor. Nach kurzer Zeit zweigt wieder ein kleiner Seitenstollen rechts ab. Willst du dem Hauptgang weiter folgen (60) oder rechts abbiegen (52).
+
+045;"O Uriath! Bist du zurückgekehrt?" Schreit das Männlein panikerfüllt beim Erwachen. Willst du es mit der Waffe zum Schweigen bringen (27), nachfragen wer Uriath ist (53), nach dem Versteck des Magiers fragen (61) oder dich vor dem offenbar nicht allzu fernen Uriath in Sicherheit bringen (70).
+
+046;Von hier führen drei Wege in verschiedene Richtungen. Für welchen Weg entscheidest du dich? Nach Westen (38), nach Osten (62) oder nach Südosten (71)?
+
+047;Du näherst dich dem Altar. Auf ihm sind einige Gerätschaften aus Silber aufgebaut. Dahinter steht das Götterbild, vierarmig wie seine Anbeter. Es hält eine Helebarde und einen Säbel, eine Ananas und einen wunderbaren Rubin. Wirst du erfurchsvoll niederknien (55), die Geräte auf dem Altar nehmen (99) oder den Rubin deiner Sammlung einverleiben (107).
+
+048;Du rufst nach dem Geist, aber nichts geschieht. Offenbar hindert ihn die Präsenz seines Gegners am Erscheinen (91).
+
+049;Du folgst dem Gang einige Windungen entlang. Offenbar wird er schon einige Zeit nicht mehr benutzt. Plötzlich hörst du hinter dir Geräusche. Vorsichtig kehrst du zur letzten Ecke zurück und hälst Ausschau (57).
+
+050;Die Palme hat die letzten Jahre nicht unbeschadet überstanden. Durch die Dürre bedingt, hat sie keine Früchte getrieben. Enttäuscht wendest du dich dem Haus (76), dem Brunnen (58) oder dem Stall (42) zu.
+
+051;Als du wieder zu dir kommst, hat sich die Umgebung radikal verändert. Du befindest dich in einer Wüstenlandschaft, leblos und sonnendurchglüht, dir vollkommen unbekannt. Du hast weder Ausrüstung noch Kleider bei dir. Plötzlich erscheint vor dir, verschwommen und einer Fata Morgana ähnelnd, eine geisterhafte Erscheinung. Und sie spricht dich an:\n"Sei gegrüßt. Verzeih, daß ich dich störte, aber ich brauche deine Hilfe. Mein Name ist Mentrag, einst bekannt als einer der zauberkundigsten Geister dieser Welt. Seit langer Zeit liege ich in Fehde mit einem bösen Magier. Durch List gelang es ihm, mich gefangenzunehmen. Seither schmachte ich in einem magischen Verlies, und meine Zauberkräfte schwinden immer mehr. Mit letzter Kraft gelang es mir ein Wesen von einer anderen Existensebene hierher zu holen - dich. Ich wußte nicht, wen ich dabei bekommen würde, aber ich hoffe, du wirst mir beistehen. Die Burg des Magiers liegt nördlich von hier. Sie wird von gräßlichen Insektenkriegern bevölkert, die ungefähr deine Größe, aber doppelt so viele Arme haben.\nNur eine Möglichkeit gibt es, die magische Sperren zu überwinden: In der Burg befinden sich an einem geheimen Ort der Stab der Schlange, dessen Zauberkräften keine Sperre wiederstehen kann. Finde ihn und ich bin gerettet." Das Bild des Geistes beginnt zu verblassen. "Meine Kräfte sind fast erschöpft. Aber einmal, nur einmal kann ich dir helfen, wenn du mich rufst." Mit diesen Worten verschwindet er, hinterläßt aber einige Ausrüstungsgegenstände im Sand. Du kleidest dich in eine Lederrüstung (der Rüstungsschutz beträgt: 3), nimmst ein Schwert und eine Laterne auf und findest außerdem noch eine Wasserflasche und einen Beutel mit 10 Golddukaten.
+Dann begibst du dich in die vom Geist gewiesene Richtung (59).
+
+052;Der Seitenstollen ist nach einigen Metern durch einen Einsturz blockiert. Es ist unmöglich, weiter voranzukommen. Aber im Halbdunkel des Stollenendes fällt dir etwas auf: Einer der Bergleute hat seinerzeit einen Goldklumpen liegenlassen! Eigendlich merkwürdig, denn er ist fast 20 Dukaten Wert und zum Liegenlassen viel zu schade. Aber vielleicht wurden hier ja noch viel wertvollere Schätze gefördert? Du kehst zurück zum Hauptgang (60).
+
+053;Allmählich beruhigt sich der Fremde wieder. Offenbar bist du trotz deines durch den Herweg schon leicht lädierten Äußeren noch relativ vertrauenerweckend. Der Alte schüttet dir in aller ausführlichkeit sein Herz aus. Irgendwo hier läuft also Uriath herum, ein Monster, dessen Gräßlichkeit auch nach Abzug aller Übertreibungen noch beeindruckend sein Muß. Leicht erschüttert machst du dich auf den Weitermarsch, immer vorsichtig umschauend, ob nicht ein Verfolger naht (70).
+
+054;Deine Schritte führen dich 18 m nach Norden. Im Dämmerlicht deiner Laterne kannst du dort einen Knick nach Osten erkennen, Dem du folgen mußt. Bis zu einem weiteren Knick sind es abermals 18 m, dort biegt der Gang wieder nach rechts ab und führt nun 18 m nach Süden, wo er zum dritten Mal nach rechts abbiegt. Nach weiteren 12 Metern kommst du an eine Abzweigung (46).
+
+055;Würdevoll läßt du dich auf die Knie nieder und verbeugst dich vor der Gottheit. Plötzlich füllt eine magische Stimme den Tempelraum und fordert von dir eine Opfergabe. Willst du sofort den taktischen Rückzug antreten (89), ein oder mehrere Stücke deiner Ausrüstung auf dem Altar plazieren (63), dir lieber einige der Silbergeräte unter den Nagel reißen (99) oder den Rubin mitnehmen (107).
+
+056;Du rüttelst an der Tür, aber sie läßt sich nicht öffne. Du hast das Gefühl, als würden dir nicht Schloß und Riegel, sondern magische Kräfte den Eintritt verwehren (91).
+
+057;Als du um die Ecke schaust, siehst du zwei Insektenkrieger deiner Spur folgen. Du hast offenbar Aufsehen erregt, und die beiden versuchen, als Wachen die Sache zu klären. Möchtest du fliehen (92), die Insekten angreifen (194), dich hinter einem Felsvorsprung verstecken (101) oder Mendrag um Hilfe rufen (83).
+
+058;Der Brunnen scheint noch relativ gut erhalten, wenn auch Winde und Eimer fehlen. Am Grunde meinst du Wasser wahrzunehmen.\nMöchtest du:
+Vorsichtig in den Brunnen hinabsteigen (67), das Haus untersuchen (76), zum Stall (42) oder zur Palme (50) gehen.
+
+059;Du gehstin die angegebene Richtung und kommst nach kurzer Zeit an eine Kreuzung. An einem verdorrten Baum siehst du drei alte kaum noch lesbare Wegweiser. Nach Westen heißt es >Silas 300 km< (77), nach Osten liest du >Mherwed 180km< (103), während es in Richtung Süden heißt >Unau 200 km< (33). Nach Norden führt ein schmaler Pfad ins Gebirge (151).
+
+060;Kilometer um Kilometer zieht sich das Stollensystem unterirdisch entlang. Schließlich endet der Gang auf einer Art aus Stein gehauenem Balkon, und du kannst eine weite Höhle überblicken. An ihrem anderen Ende siehst du ein großes Portal, an einer Seitenwand einen kleinen Eingang. Aber um sie zu erreichen, mußt du einige Meter hinunterspringen und wirst nicht mehr zurückkehren können.
+Willst du den Srung wagen (11) oder zurückkehren (69).
+
+061;"Der Magier! Weh mir ob dieser Frage", schreit er Alte. Dann erzählt er von dessen Fähigkeiten, wie dieser sich jederzeit in ein beliebiges Tier verwandeln kann. Von dem Pakt des Magiers mit den 79 Teufeln der 3.Unterwelt. Von geheimen Schätzen unter dem Verlies, in dem tausende Kreaturen elend schmachten und tagtäglich von den widerlichen Dienern grausam gefoltert werden. Von der Nixe, die im Brunnen des Burghofes für 9 mal 9 mal 9 Jahre gefangengehalten wird und jeden Vollmond einen Tropfen ihres Herzblutes für die schrecklichen Experimente des Magiers opfern muß...
+Entsetzt hältst du dir die Ohren zu und fliehst (70).
+
+062;Nachdem du ungefähr zwölf Meter nach Osten gelaufen bist, biegt der Gang, in dem du dich befindest, nach links ab. Von hier aus sind es 18 m bis zum nächsten Knick. Als du nach links blickst, kannst du in 18 m Entfernung eine Einmündung erkennen (38).
+
+063;Die geopferten Gegenstände verschwinden auf einmal spurlos vom Altar. War ihr Gesamtwert größer als 8 Dukaten (72), war der Wert kleiner oder gleich 7 Dukaten (81).
+
+064;Auf dein Signal öffnet sich eine winzige Klappe im Boden, und ein zwergenhaftes Wesen kommt herausgekrabbelt. Auf einem Tablett hat es gelblichen Kuchen draiert und bietet dir diesen stumm an. Wirst du davon essen (73) oder lieber darauf verzichten (82).
+
+065;Das Dach des Turmes ist eine etwa 100m² große, kreisförmige Fläche, die von einer leicht zerfallenen Steinbrüstung begrenzt wird. Ein morscher alter Fahnenmast ragt in die Himmel, daneben hängt eine große Alarmglocke. Einige Meter von dir entfernt steht ein hölzernes Katapult, das mit einem  schweren Steinbrocken geladen ist.\nGleich daneben hat ein orangefarbener Vogel sein Nest gebaut.\nMöchtest du die Glocke läuten (145), das Katapult auslösen (135), dir den Vogel näher anschauen (154) oder den Turm wieder hinuntersteigen (127).
+
+066;Vor dir auf dem Block liegt der Stab der Schlange. Du nimmst ihn und verleibst ihn deiner Ausrüstung ein. Aber auf einmal erschüttern Erdstöße den Tempel, als wollte die Gottheit ihren Verlust beklagen. Risse entstehen in den Wänden, und du stürzt in wilder Hast die Treppe hinauf. Unbehelligt erreichst du den Ausgang, aber hinter dir beginnt der Tempel zusammenzustürzen (6).
+
+067;Obwohl du vorsichtig hinunterkletterst, verlierst du den Halt und fällst in die Tiefe. Glücklicherweise ist der Brunnen tatsächlich noch mit Wasser gefüllt. Du wirst also nicht verdursten, aber wie du wieder nach oben kommen willst, wissen nur die Götter.
+ENDE
+
+068;An dieser Stelle führen drei Gänge ins Unbekannte. Willst du nach Norden (179), nach Westen (142) oder nach Osten (160)?
+
+069;Du verläßt das Bergwerk wieder durch den Hauptstollen und folgst weiter deinem Weg nach Osten (120)
+
+070;Aus dem rauh behauenen Felsgang wird allmählich ein säuberlich gemauerter Korridor. Du gelangst an eine Kreuzung (79).
+
+071;Du läufst ungefähr 25 Meter bis zur großen Kreuzung (88).
+
+072;Feierliche Musik ertönt, und die Stimme der Gottheit spricht einen langen wundersamen Segen auf dich. Dadurch wirst du die nächste Zeit stärker auf die Hilfe der Glücksgöttin vertrauen können. Du kannst dich jetzt weiter im Tempel umschauen (39), aber eine innere Stimme hindert dich daran, dich nochmals dem Altar zu nähern.
+
+073;Der Kuchen schmeckt ausgezeichnet, und du kannst dir für diesen Genuß 2 Lebenspunkte dazu addieren. Möglicherweise wirst du sie schon bald benötigen. Das kleine Wesen ist schon wieder verschwunden, und die Klappe im Boden läßt sich nicht öffnen (91).
+
+074;Die toten Krieger haben nichts Interessantes oder Wertvolles bei sich. Möchtest du dem Gang weiter folgen (79) oder zur Halle zurückkehren (109).
+
+075;Du schluckst die Flugperle und trittst an die Brüstung. Ohne dich weiter um das geschnatter des Vogels zu kümmern, visierst du dein Ziel an und fliegst los (126).
+
+076;Die Aufmachung des Hauses erinnert dich unwillkürlich an einen Gasthof oder eine Karawanserei. Hinter der Eingangstür befindet sich eine kleine Diele, die wiederum in einen großen Raum führt, wohl eine ehemalige Wirtsstube. Im Dämmerlicht nimmst du plötzlich eine Bewegung wahr. Du hast offenbar jemanden überrascht! Wie aus dem Boden gewachsen steht zwei Meter vor dir ein Mann mittleren Alters, gekleidet in den wallenden Stoffgewändern eines Wüstennomaden. Wirst du ihn angreifen (84), mit ihm Handel zu treiben versuchen (119) oder ihm von deiner Mission erzählen (102).
+
+077;Du marschierst eine ganze Weile geradeaus nach Westen. Die Gegend wird immer steiniger, der Pfad ist kaum noch erkennbar. Hoch über dir kreisen einige dunkle Punkte. Willst du weitergehen (40) oder lieber umkehren (59).'
+
+078;Dir gelingt es, ungesehen bis auf 30 m an den Eingang heranzukommen. Vor dem Tor siehst du 4 Insektenkrieger, die Wache stehen. Was nun? Willst du: zum direkten Angriff vorgehen (121), auf den Schutz der Nacht warten (96),dich mit einer Ausrede an den Wachen vorbeimogeln (86), Mendrag um Hilfe anrufen (112).
+
+079;Du kommst an eine Kreuzung. Gänge führen nach Osten (87), nach Süden (88) und nach Norden (106).
+
+080;Von der Kreuzung aus gehst du ungefähr 25 Meter nach Nordwesten, dann gelangst du wieder an eine Einmündung (46).
+
+081;Offenbar hat dein knauseriges Opfer die Gottheit beleidigt. Ein unheilvolles Brausen erfüllt die Luft, und kleine fahle Blitze zucken von der Decke auf den Altar. Du wartest die weitere Entwicklung nicht mehr ab und machst dich auf den Rückzug (89).
+
+082;Auf deine abwehrende Geste hin gibt das Wesen einen beleidigend klingenden Schnalzlaut von sich und verschwindet blitzschnell im Boden. es kelingt dir nicht, die Klappe zu öffnen (91).
+
+083;Du rufst Mendrag um Hilfe an, und plötzlich liegen beide Insektenkrieger ohne ein Zeichen von Gewaltanwendung tot am Boden. Denke daran, daß du nun von dem Geist keine Hilfe mehr erbitten kannst (74).
+
+084;Du ziehst dein Schwert und greifst an. Blitzschnell hat auch der Fremde zum Säbel gegriffen, und der Kampf beginnt. Informiere dich über die Kampfregeln indem du 200 eingibst und kehre dann hierher zurück indem du 84 eingibst.
+Die Werte des Nomaden sind:
+ Mut: 11          Lebenspunkte: 18
+ Attacke: 1-3     Trefferpunkte: 1W + 4
+ Parade: 1-2      Rüstungsschutz: 2
+Falls du siegst, drücke 94.
+
+085;Durch das Sichtfenster siehst du ... den Magier in Person. Schaudernd betrachtest du ihn, wie er mit seinen vier Armen herumhantiert (91).
+
+086;Du näherst dich dem Tor und willst gerade eine wohlformulierte Lüge vom Stapel lassen, als die Krieger schon zum Angriff übergehen (121).
+
+087;Du gehst den Gang entlang und entdeckst plötzlich eine Pergamentrolle auf dem Boden. Als du sie aufhebst und entrollst, liest du:\n"Zauberspruch. Katalognummer 134. Garantie: 6 Monate. Spruch: Vamurgus - Kantazubus.\n Anwendung: Wirkt gegen Kakerlaken, Blindschleichen, Elefanten, Rehpinscher, Magier, Halborks, Gromoffen und Überschwemmungen sowie gegen jede andere Unbill der Kategorien 3 und 4. Nicht verwenden bei Untoten, Bürokraten und Unwohlsein."\nDu steckst die Rolle ein und beschließt, sie nur im äußersten Notfall anzuwenden, denn bekanntlich können Spruchrollen nur einmal eingesetzt werden, dann sind sie unbrauchbar (123).
+
+088;Von hier aus führen fünf dunkle Gänge ins Ungewisse. Jeder sieht finster und unheimlich aus. Welche Richtung schlägst du ein? Nach Nordwesten (80), nach Südwesten (28), nach Süden (142), nach Osten (174) oder nach Norden (98).
+
+089;Panikerfüllt stürzt du dem Ausgang entgegen. "Stürzt" ist das richtige Wort, denn in der Eile stolperst du über eine Stufe und verlierst zwei Lebenspunkte. Falls du das überstehst, gelingt es dir, dich zum Ausgang zu retten (6).
+
+090;Erfrischt verläßt du das Wasser und trocknest dich ab (das Handtuch liegt hinter dem Primelbeet links). Danach hast du wieder die Wahl: Norden (6) oder Osten (13).
+
+091;Wirst du nun im Westen die Türklappe öffnen (22) oder die Tür benutzen (8), die Klappe im Norden (30) oder die im Osten (85) öffnen, durch die nördliche (56) oder die östliche Tür (100) treten oder gar Mendrag um Hilfe rufen (48).
+
+092;Mit größtmöglicher Geschwindigkeit entfernst du dich von deinen Feinden. Die Geräusche hinter dir verstummen nach einiger Zeit, vielleicht sind deine Verfolger sogar umgekehrt (79).
+
+093;Der Trank ist wirklich sein Geld wert. Bei der Einnahme vor einem Kampf darf man in jeder Kampfrunde zweimal zuschlagen. Nach dem Kampf verfliegt die Wirkung allerdings wieder. Die Portion reicht für einen Kampf.\nDu steckst den Trank ein und verabschiedest dich hastig, denn eben holt der Vogel zu einer neuen Geschichte aus (127).
+
+094;Du steckst erschöpft dein Schwert weg und durchsuchst die Leiche des besiegten Gegners. Dabei findest du 5 Dukaten in einem Lederbeutel, einen reich verzierten Dolch und eine kleine weiße Pfeife. Hinter em Haus angebunden findest du ein gezäumtes Kamel (137).
+
+095;Auf allen vieren schleppst du dich weiter, ringsum glühende Wüste, vor dir die lockende Fata Morgana. Warum spielt die Musik so laut ...? Immer weiter ... Die Geier werden ein Festmal habe...
+Ende
+
+096;Du wartest den Einbruch der Dunkelheit in einem Notdürftigen Versteck ab. Die Wachen werden abgelöst, aber die Ablösung sich bald nach Sonnenuntergang zum Schlafen nieder. Das ist deine Chance! Leise versuchst du dich vorbeizuschleichen. Prüfe deine Geschicklichkeit (die Regeln dafür stehen unter Nummer 199, kehre danach hierher zurück). Falls deine Geschicklichkeitsprobe gelingt gehe nach 104, wenn nicht gehe nach 121
+
+097;Mendrag materalisiert und erkennt sofort dein Problem: "Unglückseliger, du bist in das Verlies der verlohrenen Seelen geraten! Nur mit Zaubermacht kannst du dich hier retten. Höre:Erkunde das Labyrinth und zeichne seinen Grundriß auf. Du wirst vier Zauberbuchstaben erhalten. Stelle ihren Platz im Alphabet fest und addiere die vier Zahlen. Diese Nummer sprichst du an einer beliebigen Stelle des Irrgartens, und du wirst errettet werden".\nVerwirrt versuchst du aus diesem Orakel schlau zu werden. Als das Bild des Geistes verblaßt, wird dir außerdem klar, daß du nie wieder auf seine Hilfe zählen kannst. Du kehrst der Sackgasse den Rücken (gehe nach 4).
+
+098;Hier stehst du vor drei möglichen Richtungen: Norden (106), Osten (123) und Süden (88).
+
+099;Als du das erste Gerät einstecken willst, glüht es plötzlich weiß auf. Du stößt einen Schrei aus, läßt es fallen und verlierst sieben Lebenspunkte. Schnell wendest du dich zur Flucht (gehe nach 89).
+
+100;Du öffnest die Tür und stehst dem Magier höchstpersönlich gegenüber. Dieser nimmt eine drohende Haltung ein, und du mußt jetzt kämpfen (117) oder zaubern (125), kannst zu fliehen versuchen (108) oder dem Magier ganz friedlich das Ziel deiner Mission erläutern (144).
+
+101;Dir gelingt es, dich hinter einem Felsen zu verstecken. Allerdings hast du nicht bedacht, daß die Insekten auch weiterhin deine Spuren verfolgen können. Daher haben sie dich im Nu gestellt und überrascht. Beim folgenden Kampf haben sie deswegen unabhängig von den Mut-Werten den ersten Schlag (gehe nach 194).
+
+102;Der Fremde hört dir aufmerksam zu und nickt dann zustimmend. Er hat schon von diesem Magier gehört und die Umgebung seiner Burg erkundet. Er empfield dir den schlecht bewachten Hintereingang und zeigt dir sogar einige Meter von der Karawanserei entfernt einen Pfad, der dich nordwärts dorthin führen wird.\nDu dankst ihm herzlich, und ihr wünscht euch gegenseitig Glück für die Weiterreise durch die Wildnis (gehe nach 110).
+
+103;Stundenlang zieht sich der Weg in Schleifen durch das Hügelland. Nur kleine Büsche und dürre Kräuter können hier existieren. Immer noch brennt die Sonne erbarmungslos vom Himmel. Möchtest du weitergehen (111) oder zur Kreuzung zurückkehren (59).
+
+104;Du befindest dich in einem kleinen Vorhof hinter dem Tor. Eine Treppe führt ins Gebäudeinnere. Aber bevor du sie betreten kannst, tritt ein Insektenkrieger heraus, offenbar eine einsame Streife. Du mußt ihn besiegen, um nicht verraten zu werden. Die Regeln für Kämpfe findest du unter Nr.200, kehre danach hierher zurück und Kämpfe gegen den Insektenkrieger:
+ Mut:     12              Lebenspunkte:   12
+ Attacke: 1-3             Trefferpunkte:  1W+2
+ Parade:  1-2             Rüstungsschutz: 2
+Falls du siegst, gehe nach 164.
+
+105;Du entzündest die Laterne und betrittst einen Gang, der tiefer in die Burg führt (gehe nach 126).
+
+106;Ein enger und bedrückender Gang führt dich etwa 18 m nach Norden, dort biegt er dann plötzlich nach rechts ab, und du folgst ihm noch 24 m, bevor er wieder nach rechts abbiegt. Nach 18 m kommst du an eine Einmündung (gehe nach 123).
+
+107;Gierig greifst du nach dem Rubin, aber das Standbild hält ihn fest in der Hand. Und da beginnt es plötzlich zu bewegen! Dir steht offenbar eine Konfrontation mit einem lebendig gewordenen Götterbild bevor. Du solltest fliehen (89), Mendrag zu hilfe rufen (124) oder dich mit der Waffe verteidigen (138).
+
+108;Du wirbelst herum und flüchtestdem Ausgang zu. Aber hinter dir hat der Magier schon einen fürchterlichen Zauber gesprochen; ein stechender Schmerz durchzuckt dich, und du wirst nun ewig leben: als rotes Fünkchen in einer blauen Wolke.
+ENDE
+
+109;Du kehrst in den Seitengang zurück und beschliest, die Rampe zu erkunden (gehe nach 118).
+
+110;Du folgst dem Pfad nach Norden bis in das Gebirge. Zu deiner Rechten siehst du die Burg des Magiers aufragen. Der Pfad führt um die Burg herum und kann von dieser aus nicht gesehen werden. Schlieslich erreichst du den versteckt liegenden Hintereingang (140).
+
+111;Als der Weg in eine neue Schlucht einbiegt, siehst du linker Hand, hinter ein paar Büschen versteckt, einen alten aufgegebenen Mineneingang. Die ersten Meter, die du vom Eingang erkennen kannst, scheinen begehbar zu sein.\nWillst du die Mine erkunden (10), oder dem Weg weiter nach Osten folgen (31)?
+
+112;Mendrag reagiert sofort auf deinen Hilferuf und versetz dich auf magische Weise in die Burg. Er ermahnt dich, nicht zu lange zu zögern, da der Magier an finsteren Plänen arbeitet. Denke daran, daß du den Geist nun nicht mehr rufen kannst (104).
+
+113;Drohend steht Uriath vor dir. "Ich werde dich vernichten!"brüllt er."Wie ich bisher alle vernichtet habe, die sich mir in den Weg gestellt haben. Mein Ruhm wird mit jedem besiegten Feind wachsen, und du wirst der nächste sein."Dann geht er zum Angriff über:
+ Mut:     15              Lebenspunkte:   35
+ Attacke: 1-4             Trefferpunkte:  1W+4
+ Parade:  1-3             Rüstungsschutz  4
+Du verwünscht den Moment, der dich diesem Berserker über den Weg führte, aber dir bleibt keine andere Wahl, als dich deiner Haut zu wehren. Und du verdienst auch nichts Besseres, denn wie bist du zu dieser Nummer gekommen, wenn du korrekt gespielt hast? Falls du gewinnen solltest, gehe nach 79.
+
+114
+Du betrittst eine Art Galerie, die am Rand einer großen Höhle entlangführt. Unter dir siehst du viele Insekten durcheinanderwimmeln. Sie transportieren Larven oder Lebensmittel, ohne auf die Galerie zu achten und dich zu entdecken.\nWillst du sie mit einem kühnen Sprung nach unten überraschen (gehe nach U2), sie mit einem Stück deiner Ausrüstung bewerfen,um sie abzulenken (gehe nach 131) oder die Galerie am anderen Ende wieder verlassen (gehe nach 141) .
+
+115
+Du hast dich dem nördlichen Gang zugewendet und gehst ungefährt 18 m, bis sich der Gang nach Westen wendet. Nach 24 m biegst du nach Süden ab , wo du nach 18 m auf eine Einmündung gelangst (gehe nach 98).
+116
+Du hast also wirklich das Standbild besiegt.\nAls die Statue zu Boden stürzt , scheint auch der ihr geweihte Tempel zum Untergang verurteilt. Wände und Boden lösen sich in Nichts auf, und nur wie durch ein Wunder kannst du den Ausgang erreichen (gehe nach 6) .
+117
+Du ziehst dein Schwert, aber auch dein Gegner hat plötzlich Waffen in den Händen, einen Morgenstern in der oberen rechten
+Hand, einen Säbel in der unteren linken, die anderen beiden Hände greifen nach den Zutaten zu einem Zauber. Du kannst jetzt die Flucht versuchen (gehe nach 108) oder dich dem Gegner stellen.
+Werte des Magiers:
+Mut: 13 Lebenspunkte: 30
+Attacke Morgenstern : 1-4 Trefferpunkte : 1W + 2
+Attacke Säbel: 1-3 Trefferpunk;te: 1 W + 2
+Parade: 1-3 Rüstungsschutz: 3
+Außerdem schleudert. der Magier jede dritte Kampfrunde einen magischen Feuerball, der 1 W Lebenspunkte Schaden anrichtet und nicht pariert werden kann. Solltest du gewinnen, gehe nach 169.
+52
+118
+Die Rampe führt in weiten Windungen den Turm hinauf. Linker Hand kannst du ab und zu durch eines der dreieckigen Fenster die wilde Gebirgslandschaft vor der Burg überblicken. Rechts im Turminneren liegen viele kleine und mittelgroße Räume. Durch kleine Fensterehen in den Türen erkennst du Wohnzellen der Insekten, und es erscheint dir nicht ratsam, hineinzugehen. Nur einmal begegnet dir eine einsame Streife, aber es gelingt dir ohne Schwierigkeiten, dich hinter einem Vorsprung zu verstecken. Schließlich gelangst du ohne weitere Zwischenfälle auf das Dach des Turms (gehe nach 65).
+119
+Der Fremde geht auf deine freundliche Annäherung erleichtert ein, und ihr tauscht Grüße und Höflichkeitsfloskeln aus. Er bietet dir gegen 10 Dukaten ein Kamel oder kostenlos einen guten Ratschlag an. 􀖙öchtest du das Wüstenschiff erwerben (gehe nach U8) oder ihn wegen deiner Aufgabe um Rat fragen (gehe nach 102)?
+120
+Dem monotonen Auf und Ab der Hügel folgend gehst du den Weg entlang nach Osten (gehe nach 18) .
+121
+Die vier Insektenkrieger sind keine leichten Gegner. Informiere dich unter Nummer 200, wie Kämpfe abzuwickeln sind, und kehre danach hierher zurück. Die vier Krieger haben die Werte:
+Mut: 1 1 Lebenspunkte: '19, 10, 1 1
+Attacke: 1-3 Trefferpunkte: 1W + 2
+Parade: 1-2 Rüstungsschutz: 2
+Es kämpfen immer zwei Krieger gleichzeitig gegen dich, besiegst du einen, wird seine Stelle von einem anderen eingenommen , bis du alle überwunden hast. Gehe in diesem Fall nach 164.
+
+122
+Kühn schwingst du dich über das Geländer und landest unter den überraschten Kreaturen. Sofort stürzen sie sich auf dich. Obwohl du dich tapfer wehrst, erliegst du bald der ungeheuren Übermacht. Die Insekten zerteilen dich in kleine Stücke und lagern dich als Wintervorrat ein. ENDE
+123
+Drei Richtungen stehen dir zur Auswahl. Wendest du dich nach Norden (gehe nach 115) , nach Westen (gehe nach 98) oder nach Süden (gehe nach 132) ?
+124
+Mendrag materialisiert und erfaßt im selben Augenblick deine Notlage. "Fliehe sofort !" ruft er dir zu und baut einen magischen Schutzschild auf, der den Gegner für einige Momente zurückhält. Du kommst sicher zum Tempelausgang, während der Geist hinter dir wieder verschwindet (gehe nach 6).
+125
+Zaubern ist Laien normalerweise nicht möglich. Wenn du eine Zauberspruchrolle dabei hast (gehe zu deren Nummer), ansonsten mußt du kämpfen (gehe nach 117) , flie,hen (gehe nach 108)) oder dem Magier friedlich von deinen Absichten erzählen (gehe nach 144) .
+126
+Irgendwie stimmt deine Flugbahn nicht mit dem geplanten Kurs überein. Der kleine orangefarbene Vogel kommt dir im Sturzflug nach und kreischt "Halt, nicht so schnell, vor dem Abflug mußt du noch den Zauberspruch sage. Außerdem mußt du die Flügel mehr spreizen. Meine Güte, ich habe vier Kinder aufgezogen, aber keines hat sich bei seinem ersten Flug so blöd angestellt. Kopf anlegen, und schnellere Flügelschläge. Bist du noch an dem Diadem interessiert? Flieg nicht so nah an den Felsen vorbei, das ist gefährlich . . ." Mit einem dumpfen Aufprall bohrst du ein tiefes Loch in den Boden, endlich verstummt das nervende Gezwitscher. ENDE
+127
+Dein Abstieg die Turmrampe hinunter ist gefahrvoll. Einigen Insektenkriegern kannst du nur mit Glück ausweichen, indem du dich in dunklen Ecken verborgen hältst, bis sie vorbei sind. Endlich erreichst du den großen Raum an der Basis des Turms (gehe nach 15) . Ein zweites Mal wirst du den Turm nicht unentdeckt emporsteigen können.
+128
+Du zahlst dem Nomaden die 10 Dukaten, und er führt dich hinter das Haus, wo ein wirklich kräftiges und gesundes Kam􀖖l angebunden steht. Du verabschiedest dich dankend von ihm, und er wünscht dir alle Segnungen des Wüstengottes. Danach kehrt er ins Haus zurück (gehe nach 137) .
+129
+Eine weitere Tür führt dich in einen leeren Lagerraum . Die Regale sind verstaubt, und alte Säcke und Kisten liegen in den Ecken. Rechter Hand siehst du eine Tür (gehe nach 114), geradeaus führt eine steile Rampe nach unten. Du kannst sie gefahrlos benutzen (gehe nach 191), könntest aber nicht wieder umkehren und heraufklettern.
+130
+Du umkreist die Burg, und nach einiger Zeit entdeckst du einen versteckten Hintereingang. Möchtest du ihn benutzen (gehe nach 140) oder doch lieber durch das vordere Tor gehen (gehe nach 78)? 
+
+131
+Dein Wurf macht, wie erwartet, alle Insekten auf dich aufmerksam. Noch bevor du viel unternehmen kannst, kommen sie von beiden Seiten der Galerie angerannt . Gegen eine solche Übermacht hast du keine Chance - du mußt dich ergeben. Du wirst gefangengenommen. Wie du wieder aus dem finsteren Verlies entkommst ...nun, das ist eine andere Geschichte. ENDE
+
+132
+Nach 18 Metern Schutt und Geröll kommst du in diesem roh aus der Felswand gehauenen Gang an eine große Geröllhalde, die dir den Weg versperrt. Bevor du dich umdrehen kannst, um wieder zurückzugehen, greift dich eine Ratte an. Du mußt sie bekämpfen .
+Ratte:
+Mut: 8 Lebenspunkte : 9
+Attacke: 1-2 Trefferpunkte: 1W
+Parade: 1-2 Rüstungsschutz: 1
+Wenn du die Ratte besiegt hast, kannst du diese Sackgasse verlassen
+(gehe nach 123) .
+
+133
+Du steigst die Treppe hinunter und erreichst eine aus dunklem Stein erbaute Kammer. Beherrschendes Element in ihr ist ein Gesteinsblock, in dem ein seltsam verzierter Stab steckt. Links davon brennt in einer Goldschale eine Flamme, die in unregelmäßigen Abständen die Farbe wechselt. Rechts fließt Wasser aus einer kleinen Fontäne in ein silbernes Becken. Möchtest du die Flamme löschen (gehe nach 152) , von dem Wasser trinken (gehe nach 143), den Stab aus dem Block ziehen (gehe nach 175) oder Mendrag zu Hilfe rufen (gehe nach 161)?
+
+134
+Du liest die Worte auf der Zauberspruchrolle, und das Pergament zerkrümelt zu Staub. Aber die magischen Gewalten , die du damit entfesselt hast, haben dem Magier das Leben gekostet (gehe nach 169 ).
+
+135
+Du löst den Schleudermechanismus aus, und der Stein wird mit ungeheurer Wucht losgeschleudert. Du siehst ihn im hohen Bogen durch die Luft fliegen und zwischen den Hügeln einschlagen. Weiter passiert nichts.\nWillst du nun die Glocke läuten (gehe nach 145), den Vogel besuchen (gehe nach 154) oder dich wieder an den Abstieg machen (gehe nach 127)?
+
+136
+"Ach ist das schön, endlich einmal wieder ein honoriger Kunde, und ich habe so wunderschöne Waren da, wirklich empfehlenswert, ich habe sie günstig von Cousin Eberhard bekommen, 2 Jahre Garantie ... " Er zieht aus einer Felsspalte einige Gegenstände. "Siehst du, hier habe ich einen ganz wunderbaren Zaubertrank, nur fünf Dukaten, aus den geheimen Laboren des Alchimisten von Pensleg, und dann die Flugperlen, nur sieben Dukaten. Wenn man sie schluckt, kann man über eine Stunde lang fliegen, sie sind also genau das, was du suchst. Und dann hier für 10 Dukaten, das Diadem der Macht , reines Metall , würdig der Königin der Nordlande, eine wunderbare Auswahl, findest nicht?"\nFalls dir die Auswahl nicht zusagt (gehe nach 127) ansonsten kannst du den Zaubertrunk (gehe nach 93) , die Flugperlen (gehe nach 75) oder das Diadem (gehe nach 146) kaufen
+
+137
+In dem Moment, als du das Kamel besteigen willst, erscheint plötzlich vor dir ein unscharfes und durchsichtiges Bild deines Auftragebers . Dieser heult: "Unglückseliger, was zögertest du so lange! Während du in die vollkommen verkehrte Richtung gingst , raubte mir mein Feind die letzte Lebensenergie. Ich vergehe, doch ewiger Fluch sei dir Saumseligem!" Das Bildnis verschwindet, und dir wird klar, daß dir damit die letzte Möglichkeit zur Rückkehr genommen ist. Das Schicksal hat dich für immer in diese Welt verschlagen. Du steigst dein Kamel und reitest gen Unau in der Hoffnung, dort dein Glück zu machen.
+
+138
+Behende bewegt sich die Gottheit auf dich zu:
+Mut: 9 Lebenspunkte: 20
+Attacke Säbel: 1-4 Trefferpunkte: 1W+2
+Attacke Hellebarde: 1-4 Trefferpunkte: 1W+4
+Parade: 1-2 Rüstungsschutz: 4
+Mit beiden Waffen ist ein Angriff in jeder Runde möglich! Falls du dennoch gewinnst, gehe nach 116.
+
+139
+Beim Durchsuchen findest du einige aus Knochen geschnitzte Würfel und ein unbenutztes Stück Pergament. Dann verläßt du den Raum (gehe nach 70).
+
+140
+Langsam gehst du auf den Eingang zu und beobachtest aufmerksam die Burg über dir. Aber nichts regt sich hinter den dreieckigen Fenstern. Dafür springt hinter einem Felsen eine Riesenspinne hervor, die dich offenbar als Abendessen vorgesehen hat. 
+Die Werte der Riesenspinne:
+Mut: 14 Lebenspunkte : 9 
+Attacke: 1-2 Trefferpunkte: 1W+1
+Parade: 1-2 Rüstungsschutz: 1
+Wenn du den Kampf überlebst, gehe nach 149.
+
+141
+Du schleichst dich unbemerkt die Galerie entlang. Der Ausgang führt dich auf einen kleinen Flur, der sich in zwei Gänge gabelt. Willst du den linken (gehe nach 150) oder den rechten nehmen?
+
+142
+Von hier aus führen·drei Wege in verschiedene Richtungen. Welchem willst du folgen? Dem nach Norden (gehe nach 88) , dem nach Osten (gehe nach 68) oder dem nach Süden (gehe nach 167).
+
+143
+Du trinkst von dem kühlen klaren Wasser, und auf einen Schlag erweitert sich dein Erkenntnishorizont enorm. Dir wird bewußt, daß nur das eisige Weiß dich weiterbringen kann, daß du neben dem Stab der Schlange stehst und daß du dem Magier nie den Rücken zuwenden darfst. Möchtest du das Feuer löschen (gehe nach 152), den Stab aus dem Block ziehen (gehe nach 175) oder die Krypta verlassen (gehe nach 168)?
+
+144
+Du berichtest von deinem Auftrag und deinen bisherigen Erlebnissen und bittest ihn darum, den Geist freizulassen und dich wieder nach Hause zu transportieren. Der Magier beobachtet dich abschätzend und erklärt: "Mendrag ist seit Jahrhunderten mein Erzfeind, nur einer von uns beiden kann weiterexistieren, und ich werde ihm in Kürze alle Lebensenergie entziehen. Dir allerdings könnte ich vielleicht helfen, aber ich verlange dafür dein Schwert und alle deine Schätze"\nWirst du das Verlangte abliefern (gehe nach 153) oder sein Ansinnen empört zurückweisen (gehe nach 162)?
+
+145
+Du läutest die Glocke nach Leibeskräften, und ein wuchtiges Ding-Dong tönt über Burg und Umland. Nach kurzer Zeit quellen Dutzende von Insektenkriegern aus dem Turm, um nach dem gemeldeten Feind Ausschau zu halten. Im Nu haben sie ihn gefunden und dich überwältigt. Im Kerker kannst du dir für den Rest deines Lebens Gedanken über eine geschicktere Vorgehensweise machen. ENDE
+
+146
+Das Diadem ist tatsächlich ein höchst geschmackloser Modeschmuck, ganz aus Metall. Damit lassen sich die Nordlandbarbaren
+vielleicht beeindrucken, aber wer sonst? Enttäuscht verläßt du das Dach (gehe nach 127).
+
+147
+Du befindest dich offenbar in der Haupteingangshalle der Burg. Über ihr wölbt sich eine hohe Kuppel, in der kleine bunte Fenster für eine eigenartige Beleuchtung sorgen. Im Boden sind kleine Wasserläufe eingelassen , die den Raum angenehm kühl halten. In der gegenüberliegenden Wand siehst du ein großes Tor, das weiter in die Burgräume führt. Rechts steht in großen goldenen Lettern geschrieben: "Nimm erst die DREI, danach die VIER; dann kommst du weiter ohne Tür." Willst du geradeaus gehen (gehe nach 176) , umkehren (gehe nach 181) , oder findest du etwa noch eine andere Möglichkeit?
+
+148
+Leicht gebückt betrittst du den Seitengang. Plötzlich hörst du das Knacken eines Balkens. Prüfe deine Geschicklichkeit (die Regeln dazu findest du bei Nummer 199, kehre danach wieder hierher zurück). Wenn die Geschicldichkeitsprobe gelungen ist (gehe nach 36) , falls nicht (gehe nach 26).
+
+149
+Du steckst dein Schwert weg und gehst schnell die wenigen Meter zum Eingang. Die Tür öffnet sich ohne Schwierigkeiten , aber als du den Raum dahinter betreten hast, fällt sie hinter dir zu und bleibt fest verschlossen . Du wendest dich daher dem Zimmer zu. Bis auf eine Truhe , eine Kordel, die von der Decke herunterhängt und eine Ausgangstür auf der anderen Seite, ist es leer. Was wirst du tun : den Geist um Rat fragen (gehe nach 177) , die Truhe öffnen (gehe nach 158) , an der Kordel ziehen (gehe nach 165) , die Wände nach Geheimtüren absuchen (gehe nach 182) oder den Raum durch die Ausgangstür verlassen (gehe nach 105)?
+
+150
+Du kommst in einen Raum, der einen riesigen Behälter mit einer trüben, süßlich riechenden Flüssigkeit beherbergt. Du kannst von der Flüssigkeit trinken (gehe nach 159) , die vom Behälter ausgehenden Rohrleitungen zerstören (gehe nach 166)) oder gleich weitergehen (gehe nach 15) .
+
+151
+Der Weg führt stetig nordwärts ins Gebirge hinein. Plötzlich eröffnet sich der Blick auf eine merkwürdige Burg, die ziemlich unzugänglich auf einem Hügel liegt. Offensichtlich handelt es sich um die Behausung des Magiers. Ein Kletterpfad führt zum Eingang, der aber augenscheinlich bewacht wird. Wirst du zum Haupteingang marschieren (gehe nach 78) , zur Kreuzung zurückkehren (gehe nach 59) oder das Gelände um die Burg erkunden, um vielleicht eine andere Möglichkeit auszukundschaften (gehe nach 130)?
+
+152
+Mit etwas Wasser gelingt es dir leicht, die Flamme zu ersticken. Daraufbin hört die Quelle auf zu fließen, Totenstille erfüllt den Raum, und du hörst nur noch dein eigenes Herzklopfen. Willst du den Stab herausziehen (gehe nach 175) oder die Krypta wieder verlassen (gehe nach 168)?
+
+153
+Befriedigt nimmt der Magier deine Wertsachen entgegen und fixiert dich mit stechenden Augen: "Und nun kommt der Zauber,
+den du erwartet hast!"\nEr murmelt seltsame Worte vor sich hin und vollführt merkwürdige Bewegungen, mit seinen vier Armen. Dann umgibt dich Schwärze...\n...und du wachst wieder in deinem Bett auf. Nichts erinnert mehr an deine Erlebnisse in der Burg der Insekten. ENDE
+
+154
+"Eine fürchterliche Hitze ist das heute wieder, das hält man ja im Kopf nicht aus. So was aber auch, und nicht das geringste Lüftchen. Eine Affenschande, und das bei den heutigen Mietpreisen. Naja, ich zahl' ja keine, aber trotzdem, nicht einmal ein Bad gibt es hier. Zu meiner Zeit damals, als Großonkel Hugo, also vor langer Zeit, wo er von dem Hühnerhund..." hörst du den merkwüdigen kleinen Vogel vor sich hin zwitschern. Als du näherkommst schreckt er auf und sieht dich aus großen, hingebungsvoll erstaunten Augen an. Dann fängt er sofort an: "Meine Güte, ein Mensch auf dem Turm der Insektenburg, also nein, das gibt's doch nicht, das glaubt mir keiner, also was soll man dazu sagen..." Diese rhetorische Frage gibt dir die einmalige Gelegenheit, zu Wort zu kommen. Wirst du ihn füttern (gehe nach 196) , ihn freundlichen Worten anreden (gehe nach 188), ihn mit einem kurzen Schwertschlag zum Schweigen bringen (gehe nach 163) umkehren und dich an den Abstieg machen (gehe nach 127)?
+
+155
+"Ach, der grausame Magier, ein widerlicher Geselle, ich kann davon abraten , mit diesem Unhold näheren Kontakt aufzunehmen. Vielleicht verwandelt er dich ja in eine Eidechse und verfüttert dich anschließend an seine Haustiere, oder auch an die fressenden Pflanzen in seinem Labor. Ja... äh... wo er ist, drüben im anderen Turm, ganz leicht zu erreichen. Man fliegt 70 m geradeaus, dann durchs linke Fenster, ach so, unterirdisch, nein, da weiß ich nichts, da sind auch so fürchterliche Monster Großonkel Edwin meinte immer, das ist der, der mit der kleinen 78jährigen verheiratet ist, der alte Schwerenöter...\nMöchtest du das Gespräch auf den Handel bringen (gehe 136) oder das Dach fluchtartig verlassen (gehe nach 127)?
+
+156
+Ein kurzer breiter Korridor führt dich in eine große Halle. Die Wände sind mit Fresken geschmückt, die Szenen aus dem Leben der Insekten zeigen. In der Nordwand mündet eine Rampe, die nach oben führt, aber zu steil ist, um sie emporzuklettern. Der Boden ist mit einem Mosaikmuster ausgelegt, blaue und weiße Linien kreuzen sich darauf in unregelmäßigen Abständen. Du hast nur Möglichkeit die Halle durch ein Tor auf der gegenüberliegenden Seite wieder zu verlassen (gehe nach 170) .
+
+157
+Die Hügel werden langsam etwas flacher. Dein Pfad führt über einen Höhenrücken weiter nach Osten (gehe nach 31) .
+
+158
+Als du die Truhe öffnest, verschwindet die Kordel plötzlich in der Decke und kommt nicht mehr zum Vorschein. In der Truhe findet sich außer diversem Müll ein Beutel mit einem Rubin im Wert von 25 Dukaten eine Landkarte einer dir unbekannten Gegend sowie ein altes Klappmesser.\nMöchtest du nun nach Geheimtüren suchen (gehe nach 182) oder
+Raum verlassen (gehe nach 105)?
+
+159
+Das Getränk schmeckt seltsam, aber es scheint ein wirksamer und
+gesunder Nährtrank zu sein. Addiere drei zur Anzahl deiner momentanen Lebenspunkte.\nFalls du eine Flasche bei dir hast, kannst du sie mit der Flüssigkeit füllen. Du kannst die Flasche jederzeit austrinken, außer du befindest, dich mitten in einem Kampf. Auf diese Art erhältst du einmal drei Lebenspunkte zurück. Du kannst jetzt die Leistungen sabotieren (gehe nach 166) oder weitergehen (gehe nach 15).
+
+160
+Schon nach sechs Meter Weg knickt der Gang rechtwinklig nach Süden ab. Nach 18 m folgt der zweite Knick nach Westen. 24 m gehst du nach Westen, dann biegt der Gang nach Norden ab, und du erahnst in 18 m Entfernung eine Einmündung (gehe nach 142).
+
+161
+Mendrag erscheint vor dir und ruft sofort aufgeregt: "Dies ist der Stab der Schlange! Nimm ihn und befreie mich damit. Aber eile zu denn mein Widersacher bereitet Übles vor." Du folgst der Anweisung und greifst nach dem Stab der Schlange (gehe nach 175)
+
+162
+Empört lehnst du es ab, dich von deinen wohlverdienten Schätzen zu trennen. "Soso", zischt der Magier, "du willst also dein Raubgut nicht hergeben . Dann werde ich dich dazu zwingen!" Mit fremdartigen Worten und Gesten vollführt er einen Zauber, und das Zimmer wächst und wächst.\nDeine Ausrüstung liegt verstreut um dich herum, und dir wird klar daß du in eine Eidechse verwandelt worden bist!\nGrinsend nimmt dich der Magier auf und meint: "Ei da wird Putzi aber freuen - so zart und saftig." ENDE
+
+163
+Ein kurzer Schlag mit der blanken Klinge, und der possierliche Vogel ist nur noch ein blutiges Federbündel. Für diese feige mußt du dir einen Punkt von deinem Mutwert abziehen. Da die Durchsuchung des Nestes auch nichts Interessantes erbringt, kehrst du entmutigt wieder um (gehe nach 127) .
+
+164
+Du befindest dich offenbar in der Haupteingangshalle der Burg. Über ihr wölbt sich eine hohe Kuppel, in der kleine bunte Fenster für eine eigenartige Beleuchtung sorgen. Im Boden sind kleine Wasserläufe eingelassen, die den Raum angenehm kühl halten. In der linken Wand führt ein großes Tor weiter, rechts siehst du eine halboffene Holztür. Auf der gegenüberliegenden Wand steht in Goldlettern geschrieben: "Nimm erst die DREI, danach VIER; dann kommst du weiter ohne Tür."\nMöchtest du dich links (gehe nach 176) oder rechts (181) halten , oder findest du vielleicht noch eine andere Möglichkeit?
+
+165
+Du ziehst an der Kordel, und ein durchdringendes, schrilles Klingeln ertönt. Ein lautes Klack in der Truhe veranlaßt dich zu einer weiteren Steigerung deiner Herzfrequenz.\nWillst du sie öffnen (gehe nach 171), nach Geheimtüren suchen (nach 182) oder den Raum verlassen (gehe nach 105)?
+
+166
+Mit kräftigen Schwerthieben zertrennst du eine Rohrleitung nach der anderen. Das elastische, korkähnliche Material setzt dir keinen großen Widerstand entgegen. Aber offenbar ist dein Vandalismus nicht unbemerkt geblieben. Die Tür öffnet sich plötzlich, und ein Trupp Insekten will die Ursache der Störung erkunden. Den sofort entbrennenden Kampf kannst du wegen der Übermacht deiner Gegner nicht gewinnen. Deine Leiche wird in den Gärbottich ich geworfen und später einmal anderen zur kräftigenden Erfrischung dienen. ENDE
+
+167
+Du folgst dem Gang 18 m ins Ungewisse, bevor er nach links abbiegt. Nach weiteren 24 m knickt er abermals nach links ab, worauf du ihm nochmals 18m folgst, bevor er zum letztenmal nach links abbiegt. Nach sechs Metern gelangst du an eine Einmündung (nach 68).
+
+168
+Du steigst die Treppenstufen zum Tempel hoch und erreichst ohne Schwierigkeiten den Ausgang (gehe nach 6).
+
+169
+Vor dir liegt die Leiche deines Gegners. Mit seinem Tode sind auch die magischen Sperren um das Gefängnis Mendrags verschwunden, und er materialisiert sofort neben dir. Händereibend betrachtet er das magische Labor seines Erzfeindes. Welche Schätze hier für einen übersinnlich Begabten aufgehäuft liegen!\nEr dankt dir für deine Hilfe, und mit wenigen, aber mächtigen Zauberworten versetzt er dich wieder nach Hause zurück. Du liegst wieder in deinem Bett und fragst dich, ob dieses phantastische Geschehen Wirklichkeit gewesen sein kann. ENDE
+
+170
+Du befindest dich offenbar in der Haupteingangshalle der Burg. Über ihr wölbt sich eine hohe Kuppel, in der kleine bunte Fenster für eine eigenartige Beleuchtung sorgen. Im Boden sind kleine Wasserläufe eingelassen, die den Raum angenehm kühl halten.\nIn der gegenüberliegenden Wand siehst du eine halboffene Holztür, an der Wand links steht in Goldbuchstaben geschrieben: "Nimm erst die DREI, danach die VIER; dann kommst du weiter ohne Tür."\nMöchtest du geradeaus durchgehen (gehe nach 181) oder siehst du
+noch eine andere Möglichkeit?
+
+171
+Die Truhe ist fest verriegelt und läßt sich nicht öffnen. Möchtest du nach Geheimtüren suchen (gehe nach 182) oder den Raum verlassen (gehe nach 105)?
+
+172
+Den Windungen des Pfades folgend, marschierst du eine ganze Weile ohne Zwischenfälle (gehe nach 120) .
+
+173
+Der Gang erweitert sich zu einer länglichen Höhle. In Regalen links und rechts sind Pilzkulturen angelegt. Die Pilze sind von einer merkwürdigen kleinen gelben Sorte, die du nicht kennst. Auf einem Tisch vor einem der Regale ist in einer Schüssel ein Pilzbrei angerichtet, der leicht vermodert riecht. Möchtest du von dem Brei essen (gehe nach 178) , einen Pilz pflücken (gehe nach 183), eine Pilzkultur mit etwas Lampenöl übergießen und anzünden (gehe nach 187) oder weitergehen (gehe nach 15)?
+
+174
+Nach 18m knickt der Gang rechtwinklig nach rechts ab, von da aus gehst du nochmals 18 Meter bis zu einer Kreuzung (gehe nach 68).
+
+175
+Du ziehst kräftig an dem Stab, aber er bewegt sich keinen Daumenbreit. Da erscheint plötzlich ein grauenerregender Dämon aus dem Nichts und baut sich unheildrohend vor dir auf: "Nicht so schnell, Fremder. Ich bin der Wächter des Stabes, und nur wer mir eine Frage richtig beantwortet, darf ihn nehmen. Antwortest du aber falsch, wirst du ewig in der Verdammnis schmoren! Bist du bereit, zu antworten?" Eine gute Frage! Wirst du das Wagnis auf dich nehmen (gehe nach 180) oder lieber den Rückzug antreten (gehe nach 168)?
+
+176
+Du betrittst eine große Halle, deren Wände mit Fresken geschmückt sind. Sie zeigen Szenen aus dem Leben der Insekten, die die Burg bewohnen. Der Mosaikfußboden zeigt blaue und weiße Linien, die sich unregelmäßig kreuzen. In der Nordwand mündet eine aufwärts führende Rampe, die allerdings zu steil ist, um sie emporzuklettern. Daher bleibt dir nur das Tor in der Wand gegenüber (gehe nach 15) .
+
+177
+Mendrag materialisiert leicht verschwommen im Raum, um auf deine Fragen zu antworten. Aber er kann dir nur den Rat geben, die Truhe zu öffnen und dich zu beeilen, da der Magier Schlimmes im Schilde führt. Denke daran, daß der Geist dir nun nicht mehr zu Hilfe kommen kann! Willst du an der Kordel ziehen (gehe nach 165), die Truhe öffnen (gehe nach 158) , nach Geheimtüren suchen (gehe nach 182) oder die Ausgangstür benützen (gehe nach 105)?
+
+178
+Das Pilzgericht schmeckt fade, und du kannst nicht mehr als einen Löffel davon essen. Willst du lieber einen Pilz pflücken (gehe nach 183) , eine Kultur anzünden (gehe nach 187) oder die Höhle verlassen (gehe nach 15)?
+
+179
+Nachdem du 18m nach Norden gegangen bist, biegt der Gang in Richtung Westen ab. Nach weiteren 18 Metern Wegstrecke gelangst du an eine Kreuzung (gehe nach 88).
+
+180
+"So höre denn!" dröhnt der Dämon und hält plötzlich ein Tablett in der Hand, auf dem drei Edelsteine ruhen. "Wähle einen dieser Steine und mögen deine Götter dir beistehen, daß es der richtige sei!"\nDu siehst vor dir einen kristallklaren Diamant. Weiß wie Eis und Schnee, wie die kalten Winde des Nordlandes, der Heimat der Tempelbauer. Wird seine kalt glitzernde Pracht auch dich betören (gehe n ach 184)?\nOder wählst du den Rubin? Rot wie die Sonne am Himmel, wenn der Tag sich zur Ruhe neigt, heiß verbrennend alles, was an Leben sich zu nahe an ihn heranwagt (gehe nach 197).\nDer dritte Stein vor dir ist ein Smaragd. Grün funkelnd, die Farbe der Vegetation, des Lebens an sich, Oase für schwirrende Gedanken und Sehnsüchte (gehe nach 192).
+
+181
+Du kommst in eine große Höhle, deren Wände keine Spuren einer Bearbeitung ausweisen. Einige mächtige Stalaktiten hängen von der Decke, ständig rieseln Wassertropfen an ihnen herunter. Über dir kannst du einen Vorsprung erkennen, hinter dem undeutlich ein Eingang zu erahnen ist, aber es ist nicht möglich, dort hochzuklettern. Also nimmst du den Weg durch einen kleinen Seitengang, der links von dir in den Felsen hineinführt (gehe nach 19).
+
+182
+Sorgfältig suchst du die Wände ab. Würfle einmal: Bei 1-2 (gehe nach 186) bei 3-6 (gehe nach 190)
+
+183
+Bei der Berührung explodiert der Pilz plötzlich und setzt eine Sporenwolke frei. In einer Art Kettenreaktion breiten sich die Explosionen in der Kultur aus und greifen sogar auf Nachbarregale über. Die Sporen erfüllen die Höhle mit einer ungeheuren Geschwindigkeit. Keuchend und hustend schleppst du dich in Richtung Ausgang, dabei verlierst du 5 Lebenspunkte. Unter großen Schwierigkeiten rettest du dich hinaus (gehe nach 15) .
+
+184
+Etwas unsicher legst du die Hand auf den Diamanten. Leicht enttäuscht meint der Dämon: "Du hast richtig geraten, Fremder. Wie das Insektenvolk stammt auch der Stab der Schlange aus dem eisigen Norden und wartet auf den Tag, da ein Kundiger sich durch sein Wissen ausweist und ihn wieder in seine Heimat mitnimmt." Der Dämon und die Edelsteine verschwinden wieder (gehe nach 66).
+
+185
+Gerade als du die Hand nach der ersten Blume ausstreckst, ertönt eine magische Stimme: "Blumen pflücken verboten!" Eingeschüchtert läßt du von deinem frevlerischen Vorhaben ab und entscheidest dich statt dessen, ein Bad zu nehmen (gehe nach 16), nach Norden (gehe nach 6) oder nach Osten (gehe nach 13) zu gehen.
+
+186
+Als du eine leichte Erhebung der Rückwand berührst, schwingt geräuschlos eine bisher verborgene Tür auf. Du entzündest deine Laterne und betrittst einen schmalen, modrig riechenden Gang. Hinter dir schließt sich die Tür wieder (gehe nach 129).
+
+187
+Der Pilz schmort unter penetranter Geruchsentwicklung vor sich hin, weiter kannst du nichts feststellen. Als du ihn näher anschauen willst, berührst du eines der anderen Exemplare (gehe nach 183).
+
+188
+Auf deinen freundlichen Gruß antwortet der kleine Vogel mit einem begeisterten Wortgezwitscher, in dem die Freude eine Rolle spielt, in dieser unkultivierten Gegend einen gebildeten Gesprächspartner zu finden, sowie die Schwierigkeiten des heutigen Lebens im allgemeinen und im besonderen, außerdem noch...(gehe nach 193)
+
+189
+Du holst den Stab aus deiner Ausrüstung, und sofort brechen die magischen Sperren: Mendrag ist frei!\nEr bedankt sich bei dir und meint, er würde jetzt mit seinem Gegner endgültig abrechnen.\nVorher aber spricht er geheimnisvolle Zauberworte und du spürst, wie du ein weiteres Mal magisch transportiert wirst. Du liegst wieder in deinem gewohnten Bett und hast dein ungewöhnliches Abenteuer heil überstanden. ENDE
+
+190
+Deine Suche bleibt erfolglos, enttäuscht wendest du dich wieder dem Raum zu (gehe nach 149). Du kannst hier nicht noch einmal nach Geheimtüren suchen.
+
+191
+Du rutschst die Rampe etwa zwanzig Meter entlang und landest etwas unsanft, aber wohlbehalten in einer großen Halle. Die Wände sind mit Fresken geschmückt, die Szenen aus dem Alltagsleben der Insekten darstellen. Der Boden ist aus bunten Mosaiksteinen zusammengesetzt, er zeigt sich kreuzende blaue und weiße Linien. In den beiden Seitenwänden befinden sich zwei Tore. Nimmst du das rechte (gehe nach 15) oder das linke Tor (gehe nach 170).
+
+192
+Schließlich hast du dich entschlossen und nennst den Smaragden. Bekümmert nickt der Dämon: "Die Farbe des Lebens wählst du. Und damit rätst du richtig, denn der Tempel, sein Vorraum und seine Diener sind der Gottheit des Lebens geweiht. Sie bringt Blumen und Sträucher mannigfaltig hervor und hat geheimnisvolle Kräfte in diesem Stab konzentriert." Der Dämon und seine Edelsteine verschwinden so plötzlich wie sie gekommen sind (gehe nach 66)
+
+193
+Da dieses anatomische Wunder offenbar nicht Luft holen muß, unterbrichst du schon beinahe unhöflich und fragst ihn nach dem Aufenthaltsort des Magiers (gehe nach 155) , schlägst ihm einen Tauschhandel vor (gehe nach 136) oder bittest ihn, dir einen Schwank aus seiner Jugendzeit zu erzählen (gehe nach 198).
+
+194
+Es kommt zum Kampf mit den Insektenkriegern :
+Mut: 10 Lebenspunkte : 1 1 , 12
+Attacke: 1-3 Trefferpunkte: 1W + 2
+Parade 1-2 Rüstungsschutz: 2
+Falls du sie besiegst, gehe nach 74.
+
+195
+Genießerisch wälzt du dich weiter durch die Wellen, als plötzlich ein Raubfisch herbeischießt und dich in empfindliche Teile beißt (du verlierst 1W Lebenspunkte). Offenbar hat ihn deine ungewohnte Anwesenheit beunruhigt. Sofort verschwindet er wieder in seinem Versteck, und du kannst dich ans Ufer retten (gehe nach 90)
+
+196
+Du bietest ihm mit freundlichem Putt-Putt einige Krümel deiner eisernen Reserve an. Der Vogel probiert einmal und fängt gleich an zu kreischen: "So ein Saufraß! Das kriegt ja kein Schwein runter! Hältst du mich für einen primitiven Vielfraß? Wenn ich da vergleichsweise an die Küche meiner verehrten Frau Großmutter denke, weichgekochter Mais mit Knoblauchsauce, Dillspitzen in Majoran und Knierskraut, gelierte Regenwürmer..." Möchtest du ihm für dieses Verhalten dein Schwert zu kosten geben (gehe nach 163)) oder es weiter mit einem Gespräch versuchen (gehe nach 193)?
+
+197
+Mit zitternder Hand deutest du auf den Rubin. Da brüllt der Dämon auf: "Er rät es. Ja, der Rubin ist das Abzeichen unserer Gottheit, der Tempel und Stab geweiht sind. So nimm hin den Stab, eines Tages werden wir uns wiederbegegnen!" Mit diesen unheilverkündenden Worten verschwinden Dämon und Edelsteine. (gehe nach 66)
+
+198
+Der Vogel ist gerührt, schon lange hat ihn keiner mehr gebeten, aus seinem reichen Fundus von Anekdoten etwas zum besten zu geben. Und er erzählt von seiner Jugendzeit (während die Jugend von heute ja bekanntlich...), der Geschichte seiner weitverzweigten Sippe seit Uropa Heinrich (der mit einer unbekannten Schönen durchgebrannt ist...), die Schwierigkeiten des heutigen Lebens werden ebenfalls gebührend gewürdigt. Nach ungefähr zwei Stunden kommst du für einen Moment zu Wort und bedankst und verabschiedest dich. Aus Dankbarkeit für dein tapferes Ausharren schenkt er dir eine elfenbeinerne Figur, die eine reizende kleine Vogeltänzerin darstellt (gehe nach 127).
+
+199
+Die Geschicklichkeitsprobe:
+Deine Geschicklichkeit hat immer einen Wert, der zwischen 8 und 13 liegt. Falls du nun eine Geschicklichkeitsprobe ablegen mußt, z.B. wenn du irgendwo vorbeischleichen willst, so würfle dreimal und addiere die Augenzahlen. Du hast die Probe bestanden , wenn die erwürfelte Summe deine Geschicklichkeit nicht übersteigt. Nun kehre wieder zu der Nummer zurück, an der du aufgefordert wurdest, die Geschicklichkeitsprobe abzulegen.
+
+200
+Die Kampfregeln
+Jeder Kampf dauert so lange, bis eine der beteiligten Parleien vollständig besiegt ist. Sollte dir dies passieren, das heißt, daß deine Lebensenergie auf Null sinkt, so hast du das Spiel verloren. Aber keine Angst, du kannst dir danach eine neue Spielfigur auswürfeln und wieder bei Paragraph 1 beginnen. Bevor nun der eigentliche Ablauf des Kampfes erklärt wird, müssen
+noch einige Begriffe erläutert werden. 
+Der Mut: Der Wert gibt an, wie mutig ein Bewohner Aventuriens ist. Derjenige, der den höheren Mut besitzt, darf zuerst zuschlagen. Sollte es vorkommen, daß du denselben Mutwert wie dein Gegner hast, mußt du einmal für dich und einmal für deinen Gegner würfeln. Derjenige, dessen gewürfelte Zahl höher ist, hat den ersten Schlag.
+Lebenspunkte: Diese Zahl gibt an, wie viele Trefferpunkte ein Bewohner Aventuriens aushält. Sinkt diese Zahl auf Null, ist der Betroffene getötet worden. Sind die Lebenspunkte aller deiner Gegner auf Null gesunken, dann hast du den Kampf gewonnen.
+Die Attacke: Die beiden Ziffern geben an , in welchem Würfelbereich ein Kämpfer seinen Gegner trifft. Deine Attacken treffen bei 1-3, d.h., würfelst du weniger als 4, so hast du deinen Gegner getroffen. Die Parade: Auch hier geben die beiden Ziffern den B ereich an, in dem die Parade gelingt. Die Parade wird nur dann ausgewürfelt, wenn ein Kämpfer seinen Gegner getroffen hat. Gelingt dann die Parade des Getroffenen, so hat er den Schlag noch abwenden können, und er erleidet durch diesen Treffer keinen Schaden. Deine Parade gelingt bei 1-2.
+Trefferpunkte: Hier ist vermerkt, wieviel Schaden ein Treffer anrichtet. 1 W bedeutet, daß mit einem normalen, sechsseitigen Würfel ausgewürfelt wird, wie viele Lebenspunkte der Getroffene verliert. Außerdem kann zu diesem Würfelwurf noch eine Zahl addiert werden; diese hängt von der Art und Schwere der Bewaffnung ab. Ein Beispiel: Du richtest mit deinem Schwert 1 W + 4 Trefferpunkte Schaden an, d. h. du würfelst einmal und addierst zu dem Würfelwurf 4 hinzu. Das Ergebnis liegt dann zwischen 5 und 10.
+Rüstungsschutz: Jeder Kämpfer hat in irgendeiner Form eine Bekleidung oder Rüstung, bei Tieren kann das auch ein natürlicher Schutz sein, etwa ein Pelz oder ein Hornpanzer. Diese Rüstung kann einen Teil des Schadens auffangen, das bedeutet, der entsprechende Schaden wird um den Rüstungsschutz vermindert.
+Beispiel: Dein Gegner trifft dich, und deine Parade ist erfolglos. Der Gegner würfelt nun den Schaden aus und erzielt 8 Trefferpunkte. Deine Lederrüstung hat den Rüstungsschutz 3. 8-3 = 5, du mußt dir also nur 5 Lebenspunkte abziehen. 
+Der Ablauf eines Kampfes:
+a) Die Partei mit dem höchsten Mutwert hat den ersten Schlag. Irri
+Falle von Gleichheit würfelt man aus, wer den ersten Schlag
+hat.
+b) Beide Parteien haben pro Kampfrunde die Möglichkeit, je einmal
+zu attackieren und zu parieren . Beachte, daß du in manchen
+Fällen mehrere Gegner haben kannst, von denen pro
+Kampfrunde jeder eine Attacke gegen dich ausführen darf,
+während du nur einmal zuschlagen kannst.
+Ein Gegner mit mehreren Waffen, mit denen er gleichzeitig
+kämpfen kann , ist wie mehrere Gegner zu behandeln.
+c) Gelingt einem Kämpfer eine Attacke, so hat der Angegriffene
+die Möglichkeit zu einer Parade. Gelingt diese, hat er den Angriff
+abwenden können. Gelingt die Parade nicht, wurde der
+Angegriffene getroffen und der Schaden muß ermittelt werden
+.
+d) Dieses wird so lange fortgesetzt, bis alle Kämpfer einer Partei
+getötet wurden, d . h. ihre Lebenspunkte auf Null gesunken
+sind.
+Beachte: Die Lebenspunkte, die du in einem Kampf verlierst, sind
+für den Rest dieses Abenteuers verloren. Du kannst sie nur auf
+magischem Wege oder durch andere besondere Vorkommnisse
+wieder erhöhen. Achte in einem solchen Fall darauf, daß du nie
+mehr als 30 Lebenspunkte besitzen kannst.
+Wenn du alles verstanden hast, kehre zu dem Abschnitt zurück,
+von dem du gekommen bist.

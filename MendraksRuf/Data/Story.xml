@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MendraksRuf>
+	<state stateID="0">
+		<text>Willkommn zu 'Mendraks Ruf, dem Textadventure.\n\nDas Textadventure ist aus dem Buch 'Knaurs Buch der Rollenspiele' ISBN 3-426-03795-5\nVerantwortlich für PC Umsetzung ist Glimmlampe!\n\n\nUm das Spiel zu starten, Klicken Sie auf 'Weiter', es wurde automatisch ein Charakter für Sie erstellt.</text>
+		<target targetID="1">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="1">
+		<text>...irgend etwas hat dich geweckt! Eben noch hast du fest geschlafen, aber plötzlich war da ein vager Traum, ein fremder Gedanke, der dich aufgeschreckt hat. Noch etwas benommen setz du dich im Bett auf und versuchst dir über die Ursache klarzuwerden. Das Zimmer liegt ruhig und friedlich da, die Uhr zeigt drei Uhr morgens. Du spürst, wie sich dir jemand geistig mitteilen will, ein unerklärlicher, logisch nicht verständlicher Vorgang, aber du weißt sicher, daß dich jemand ruft. Du konzentrierst dich und merkst, daß diese geistigen Impulse von unten kommen, offenbar aus dem Keller.\nWie wirst du auf diese außergewöhnliche Kontaktaufnahme reagieren:</text>
+		<target targetID = "9">
+			<value>Ignorieren und weiterschlafen</value>
+		</target>
+		<target targetID = "17">
+			<value>Den Impulsen folgen und nachforschen</value>
+		</target>
+	</state>
+	
+	<state stateID="2">
+		<text>Du stößt den Kadaver mit dem Fuß beiseite und setz deinen Weg fort. Die Stützbalken sind schon relativ alt, aber wohl noch brauchbar. Die Luft riecht leicht muffig, und ein kühler Windhauch kommt aus der Tiefe.\nNach kurzer Zeit zweigt rechts ein kleiner Seitengang ab. Willst du:</text>
+		<target targetID="148">
+			<value>ihn erkunden</value>
+		</target>
+		<target targetID="44">
+			<value>oder dem Hauptgang folgen?</value>
+		</target>
+	</state>
+	
+	<state stateID="3">
+		<text>Während das Schnarchen des Männleins durch die Höhle hallt, gelingt es dir ohne Zwischenfälle, dich vorbeizuschleichen.</text>
+		<target targetID="70">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="4">
+		<text>Du kommst an eine Stelle, von der drei Gänge abzweigen</text>
+		<target targetID="38">
+			<value>Norden</value>
+		</target>
+		<target targetID="12">
+			<value>Süden</value>
+		</target>
+		<target targetID="20">
+			<value>Südosten</value>
+		</target>
+	</state>
+	
+	<state stateID="5">
+		<text>Willst du:</text>
+		<target targetID="21">
+			<value>Die Malereien begutachten?</value>
+		</target>
+		<target targetID="29">
+			<value>Die Statuen untersuchen?</value>
+		</target>
+	</state>
+	
+	<state stateID="6">
+		<text>Du kommst in einen breiten Korridor, dem du etwa 20 Meter nach Norden folgst. Dann stehst du am Ende vor drei Türen, je eine im Norden, Osten und Westen. In jeder befindet sich eine kleine Klappe zum Hindurchsehen. Von der Decke hängt ein silberner Gong.</text>
+		<target targetID="14">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="7">
+		<text>Du öffnest die Falltür und siehst unter dir einen dunkelen Raum, dessen Boden mit einer dünnen Schicht Stroh bedeckt ist, die deinen Sprung dämpfen würde.</text>
+		<target targetID="23">
+			<value>Möchtest du hinunterspringen</value>
+		</target>
+		<target targetID="15">
+			<value>oder dich woanders umsehen?</value>
+		</target>
+	</state>
+	
+	<state stateID="8">
+		<text>Du öffnest die Tür und betrittst den Bereich der Verliese. Als du die Tür wieder schließt, schrillt eine Alarmsirene durch die Burg. Schon bald hörst du Unruhe und Schritte hinter dir.Du wirst dich beeilen müssen. In einem der Verliese, hinter magischen Gittern eingesperrt, findest du deinen Auftraggeber.</text>
+		<target targetID="189">
+			<value> Hast du den Stab der Schlange dabei</value>
+		</target>
+		<target targetID="24">
+			<value>oder nicht</value>
+		</target>
+	</state>
+	
+	<state stateID="9">
+		<text>Am nächsten Morgen wachst du auf und gehst deinen normalen  Beschäftigungen nach. Etwas mehr Abenteuerlust hätte dir vielleicht neue Perspektiven eröffnet.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="10">
+		<text>Du entzündest deine Lampe und gehst langsam und vorsichtigden Stollen Das Bergwerk scheint schon schon längere Zeit unbenutzt zu sein. Und es haben sich inzwischen neue Bewohner eingefunden! Eine Fledermaus fühlt sich durch dein Eindringen gestört und greift dich an.</text>
+		<enemy name="Fledermaus">
+			<skill bravery="8"></skill>
+			<skill hitpoints="11"></skill>
+			<skill attack="3"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="0"></skill>
+			<skill parry="3"></skill>
+			<skill armor="0"></skill>
+		</enemy>
+		<target targetID="2">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="11">
+		<text>Mit einem mächtigen Satz erreichst du den Boden der Höhle. Keine Menschenseele ist zu sehen, als einziges Geräusch hörst du das Tropfen einiger Kondenswasserstellen. Möchtest du:</text>
+		<target targetID="147">
+			<value>Durch das Portal</value>
+		</target>
+		<target targetID="19">
+			<value>oder den Nebengang gehen?</value>
+		</target>
+	</state>
+	
+	<state stateID="12">
+		<text>Dieser Gang endet nach ungefähr 36 Metern in einer Sackgasse. Da du hier kein Fortkommen mehr siehst, kannst du:</text>
+		<target targetID="4">
+			<value>umkehren</value>
+		</target>
+		<target targetID="97">
+			<value>oder in deiner  hoffnungslosen Verzweiflung nach Mendrag rufen</value>
+		</target>
+	</state>
+	
+	<state stateID="13">
+		<text>Dir eröffnet sich ein atemberaubender Anblick:Dies scheint der Tempel einer mächtigen und reichen Gottheit zu sein. Ein prächtig geschmückter Altar, dahinter das imposante Standbild eines Insektengottes. Die Wände sind mit Gemälden verziehrt, in Nischen stehen kleine Statuen. Links neben dem Altar füht eine Treppeabwärts, rechts davon befindert sich eine Tür.\nNach einigen Momenten anfänglichen Staunens beschließt du:</text>
+		<target targetID="5">
+			<value>Dich den Wänden zu widmen</value>
+		</target>
+		<target targetID="47">
+			<value>den Altar zu untersuchen</value>
+		</target>
+		<target targetID="133">
+			<value>in die Krypta hinabzusteigen</value>
+		</target>
+		<target targetID="6">
+			<value>oder den Ausgang zu benutzen</value>
+		</target>
+	</state>
+	
+	<state stateID="14">
+		<text>Möchtest du nun</text>
+		<target targetID="22">
+			<value>die Klappe in der westlichen Tür öffnen</value>
+		</target>
+		<target targetID="8">
+			<value>durch die Tür treten</value>
+		</target>
+		<target targetID="30">
+			<value>die Klappe im Norden öffnen</value>
+		</target>
+		<target targetID="56">
+			<value>durch die Tür gehen</value>
+		</target>
+		<target targetID="85">
+			<value>oder gar durch die die Klappe im Osten schauen</value>
+		</target>
+		<target targetID="100">
+			<value>die Tür selbst benutzen</value>
+		</target>
+		<target targetID="64">
+			<value>den Gong bedienen</value>
+		</target>
+		<target targetID="48">
+			<value>oder Mendrag um Hilfe rufen</value>
+		</target>
+	</state>
+	
+	<state stateID="15">
+		<text>Du kommst in eine große Höhle. Ringsum siehst du verschiedene Ausgänge. Du kannst </text>
+		<target targetID="118">
+			<value>eine steile Rampe empor in die Höhe steigen</value>
+		</target>
+		<target targetID="156">
+			<value>durch ein prächtig geschmücktes Portal gehen</value>
+		</target>
+		<target targetID="32">
+			<value>eine kleine Holztür öffnen</value>
+		</target>
+		<target targetID="7">
+			<value>eine Falltür im Boden untersuchen</value>
+		</target>
+		<target targetID="49">
+			<value>oder einen alten verstaubten Seitengang benutzen</value>
+		</target>
+	</state>
+	
+	<state stateID="16">
+		<text>Du stürzt dich in die erfrichenden Fluten und planschst eine Weile fröhlich herum. Der Erholungswert ist so groß, daß du zwei Punkte zu deinen Lebenspunkten addieren darfst. Nach etwa zehn Minuten stellt sich die Frage:</text>
+		<target targetID="195">
+			<value>Weitermachen</value>
+		</target>
+		<target targetID="90">
+			<value>Aufhören</value>
+		</target>
+	</state>
+	
+	<state stateID="17">
+		<text>Du folgst der inneren Stimme, die dich in den Keller führt. Dort stellst du Erstaunliches fest:\nWo gestern noch dein altes Fahrrad stand, führt nun eine mit Fackeln beleuchtete Treppe ins Ungewisse. Willst du nun:</text>
+		<target targetID="9">
+			<value>gleich wieder umkehren und dich wieder ins Bett legen</value>
+		</target>
+		<target targetID="43">
+			<value>kühn die Treppe hinuntergehen</value>
+		</target>
+		<target targetID="35">
+			<value>vor einem solchen Abstieg noch etwas Ausrüstung mitnehmen</value>
+		</target>
+		<target targetID="25">
+			<value>oder -wer weiß, was von unten Gefährliches kommen mag- vorsichtshalberdas Licht ausknipsen</value>
+		</target>
+	</state>
+	
+	<state stateID="18">
+		<text>Ein sich langsam emporwindendes Tal führt dich deinem Ziel entgegen</text>
+		<target targetID="157">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="19">
+		<text>Nach einigen Metern erweitert sich der Gang zu einer kleinen Höhle. Auf einer aus Stein gehauenen Bank schläft ein ungefähr 1,52 m großes, altes, buckliges Männlein den Schlaf des Gerechten (oder ungerechten, in dieser Gegend weiß man das nie so genau).</text>
+		<target targetID="3">
+			<value>Du kannst dich vorsichtig an ihm vorbeischleichen</value>
+		</target>
+		<target targetID="45">
+			<value>das Männlein aufwecken</value>
+		</target>
+		<target targetID="37">
+			<value>es im Schlaf ausrauben</value>
+		</target>
+		<target targetID="27">
+			<value>oder, jedes Risiko vermeiden, zum Schwert greifen und zuschlagen?</value>
+		</target>
+	</state>
+	
+	<state stateID="20">
+		<text>Der aus Fels gehauene Gang führt dich 18 Meter nach Südosten, wo er im rechten Winkel nach links abknickt. Nach weiteren 18 Metern kommst du auf eine Kreuzung</text>
+		<target targetID="88">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="21">
+		<text>Auf den Bildern sind bewegende Kampfszenen aus der gloreichen Geschichte des Insektenvolkes abgebildet. Offenbar haben sie leicht magische Fähigkeiten, denn der Mut eines Beobachters, also auch deiner wird um einen Punkt erhöht.</text>
+		<modify name="bravery">
+			<value>+1</value>
+		</modify>
+		<target targetID="39">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="22">
+		<text>Durch das kleine Türfenster siehst du einige Treppenstufen, die in ein finsteres Verlies hinunterführen. Undeutlich lassen sich Ketten und Gitter erkennen.</text>
+		<target targetID="91">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="23">
+		<text>Mit einem kühnen Sprung gelangst du nach unten. Du bist in einem Verlies ohne Ausgang oder Fluchtmöglichkeit. In den Ecken liegen die Skelette deiner Vorgänger. Allerdings ist bestimmt keiner von ihnen freiwillig in die Falle gegangen.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="24">
+		<text>"Unglückseliger!" brüllt der Geist in seinem Verlies."Nun bin ich endgültig verloren! Schon in Kürze wird mich mein Feind vernichten."\nIn diesem Moment wird die Eingangstür aufgerissen, und Insektenkrieger drängen in den Raum."Lauf schnell", ruft Mendrag, "ich werde sie noch kurze Zeit aufhalten können, links hinter dir befindet sich ein Ausgang."\nSchnell wendest du dich um und fliehst. Du gelangst unbehelligt ins Freie und verläßt in Windeseile das Gebiet der Burg, die dir beinahe  zum Verhängnis geworden wäre.\nDer Rückweg nach Hause ist dir Versperrt, und du wirst dich in dieser fremden Welt zurechtfinden müssen.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="25">
+		<text>Als du den Schalter betätigst, erlöschen Lampe und Fackeln. Du stehst im Dunkeln.\nEs passiert nichts.\nNach einiger Zeit entschließt du dich bangen Herzens, wieder Licht zu machen, und siehe da, der Keller sieht aus wie gewohnt. Jetz wirst du nie ergründen, was hier geschehen ist.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="26">
+		<text>Dir gelingt es nicht mehr rechtzeitig, zur Seite zu springen, als plötzlich ein gebrochener Balken und ein Haufen Steine von oben herabrasseln. Durch diesen Unfall verlierst du 4 Lebenspunkte. Nur mühsam kannst du dich wieder zum Hauptgang vorarbeiten</text>
+		<modify name="health">
+			<value>-4</value>
+		</modify>
+		<target targetID="44">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="27">
+		<text>Mit einem mächtigen Schwertsteich schlägst du das alte Männchen mittendurch. Während das unschuldige Blut verströmt, durchsuchst du die Höhle. Dabei findest du einige aus Knochen Geschnizte Würfel und ein unbenutztes Stück Pergament. </text>
+		<inventory name="find">
+			<item name="Knochenwürfel"></item>
+			<item name="unbenutztes Pergament"></item>
+		</inventory>
+		<target targetID="70">
+			<value>Danach verläßt du die Höhle</value>
+		</target>
+	</state>
+	
+	<state stateID="28">
+		<text>Der feuchte Gang verläuft ungefähr 18 m nach Südwesten, um dort nach Nordwesten abzubiegen. Du folgst ihm weitere 18 m und kommst an eine Einmündung</text>
+		<target targetID="4">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="29">
+		<text>Interessiert betrachtest du die verschiedenen Statuen. Sie stellen Götter und Helden der Insekten dar. Eine Figur ziehe im besonderen Maße deine Aufmerksamkeit auf sich:\nIhre Augen sind aus Smaragden gefertigt. Leicht kannst du die beiden Steine entfernen und deiner Ausrüstung einverleiben. Sie haben einen Wert von 22 bzw. 31 Dukaten</text>
+		<inventory name="find">
+			<item name="Wertgegenstände">+53</item>
+		</inventory>
+		<target targetID="39">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="30">
+		<text>Durch die Klappe blickst du in eine unwirkliche blaue Wolke, in der rote Funken durcheinanderwirbeln. Alles macht einen sehr unrealen Eindruck, und du kannst keine klaren Konturen erkennen</text>
+		<target targetID="91">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="31">
+		<text>Der Weg führt weiter in Richtung Osten. Im Bergland ringsum bemerkst du nichts Auffälliges</text>
+		<target targetID="172">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="32">
+		<text>Du betrittst durch die Holztür einen kleinen Nebenraum. Auf einem Ruhelager schläft ein Insektenkrieger. Besser gesagt, er schlief. Dein Eintreten hat ihn geweckt. Er greift zur Waffe, und du mußt dich deiner Haut wehren</text>
+		<enemy name="Insektenkrieger">
+			<skill bravery="9"></skill>
+			<skill hitpoints="9"></skill>
+			<skill attack="3"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="1"></skill>
+			<skill parry="3"></skill>
+			<skill armor="2"></skill>
+		</enemy>
+		<target targetID="41">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="33">
+		<text>Nach ungefähr 6 km Fußmarsch erreichst du eine verfallene Gebäudegruppe. Im schmalen Schatten einer Palme liegen die Trümmer eines ehemaligen Stalles. Rechter Hand ist ein Brunnen. Daneben erhebt sich das noch halbwegs gut erhaltene Haupthaus.\nWas willst du dir nun näher anschauen:</text>
+		<target targetID="76">
+			<value>Das Haus</value>
+		</target>
+		<target targetID="42">
+			<value>dem Stall</value>
+		</target>
+		<target targetID="58">
+			<value>den Brunnen</value>
+		</target>
+		<target targetID="50">
+			<value>die Palme</value>
+		</target>
+	</state>
+	
+	<state stateID="34">
+		<text>Als du die magische Zahl aussprichst, ertönt ein leises Summen, und die Umgebung verschwimmt vor deinen Augen. Du stehst auf einmal beeindruckenden Gartenraum, der durch Fenster in der Decke beleuchtet und mit zwei Springbrunnen bewässert wird. Zwei Zuflüsse aus den Brunnen speisen ein Becken, das zum Baden lockt.\nZwei Türen führen aus dem Raum. Die im Norden iste blaugelb gestreift, die im Osten ist braun mit einer Roten Inschrift in roten Buchstaben:\n\tZutritt nur für Priester.\nWas wirst du jetzt tun:</text>
+		<target targetID="16">
+			<value>Ein Bad im Schwimmbecken nehmen</value>
+		</target>
+		<target targetID="185">
+			<value>dir einen Strauß Blumen pflücken</value>
+		</target>
+		<target targetID="6">
+			<value>die nördliche</value>
+		</target>
+		<target targetID="13">
+			<value>oder die östliche Tür benutzen</value>
+		</target>
+	</state>
+	
+	<state stateID="35">
+		<text>u darfst alles mitnehmen, was sich in deinem Keller befindet und du  für sinnvoll erachtest. Achte darauf, daß du auch alles allein tragen kannst, und notiere jedes Stück auf deiner Ausrüstungsliste. Dann begibst du dich in Richtung Treppe</text>
+		<target targetID="43">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="36">
+		<text>Im letzten Moment kannst du zur Seite springen, als neben dir ein Balken und ein Haufen Schutt niederstürzt. Leicht benommen und eingestaubt arbeitest du dich rückwärts heraus und folgst wieder dem Hauptgang</text>
+		<target targetID="44">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="37">
+		<text>Vorsichtig beginnst du, das Männlein zu durchsuchen.</text>
+		<target targetID="139">
+			<value>Gelungen</value>
+		</target>
+		<target targetID="45">
+			<value>Misslungen</value>
+		</target>
+	</state>
+	
+	<state stateID="38">
+		<text>Hier treffen Gänge aus drei Richtungen aufeinander. Wohin willst du dich wenden?</text>
+		<target targetID="54">
+			<value>Nach Norden</value>
+		</target>
+		<target targetID="46">
+			<value>nach Osten</value>
+		</target>
+		<target targetID="4">
+			<value>nach Süden</value>
+		</target>
+	</state>
+	
+	<state stateID="39">
+		<text>Willst du als nächstes</text>
+		<target targetID="47">
+			<value>den Altar anschauen</value>
+		</target>
+		<target targetID="133">
+			<value>in die Krypta hinabsteigen</value>
+		</target>
+		<target targetID="6">
+			<value>hinausgehen</value>
+		</target>
+	</state>
+	
+	<state stateID="40">
+		<text>Der Durst fängt an, dich zu quälen. Nur noch mühsam kannst du die Richtung halten. Die Vögel über dir ziehen immer tiefere Kreise. Dein kühler Keller kommt dir jetzt wie das Paradies vor</text>
+		<target targetID="95">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="41">
+		<text>Du untersuchst die Leiche und den Raum und findest einige Heller in einer Gürteltasche, außerdem ein in Leder gebundenes Büchlein voll obszöner Zeichnungen aus der Insektenwelt. Leicht enttäuscht verläßt du den Raum wieder, um</text>
+		<target targetID="118">
+			<value>die Rampe emporzusteigen</value>
+		</target>
+		<target targetID="156">
+			<value>durch das Portal zu gehen</value>
+		</target>
+		<target targetID="7">
+			<value>die Falltür zu öffnen</value>
+		</target>
+		<target targetID="49">
+			<value>oder den staubigen Seitengang zu untersuchen</value>
+		</target>
+	</state>
+	
+	<state stateID="42">
+		<text>Der Stall besteht nur noch aus einem Haufen vermoderter Bretter und diversen übelriechenden Abfallhaufen. Leicht angeekelt wendest du dich ab, um</text>
+		<target targetID="76">
+			<value>zum Haus zu gehen</value>
+		</target>
+		<target targetID="58">
+			<value>den Brunnen in Augenschein zu nehmen</value>
+		</target>
+		<target targetID="50">
+			<value>oder um die Palme zu begutachten</value>
+		</target>
+	</state>
+	
+	<state stateID="43">
+		<text>Gang und Treppe sind in massiven Fels gehauen worden. Nach einigen Minuten vorsichtigen Abstiegs fühlst du dich plötzlich unsicher. Der Boden gibt leicht nach, die Umgebung verschwimmt vor deinen Augen, und du verlierst die Besinnung</text>
+		<target targetID="51">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="44">
+		<text>Du dringst weiter ins Bergwerk vor. Nach kurzer Zeit zweigt wieder ein kleiner Seitenstollen rechts ab. Willst du</text>
+		<target targetID="60">
+			<value>dem Hauptgang weiter folgen</value>
+		</target>
+		<target targetID="52">
+			<value>oder rechts abbiegen</value>
+		</target>
+	</state>
+	
+	<state stateID="45">
+		<text>>"O Uriath! Bist du zurückgekehrt?" Schreit das Männlein panikerfüllt beim Erwachen. Willst du</text>
+		<target targetID="27">
+			<value>es mit der Waffe zum Schweigen bringen</value>
+		</target>
+		<target targetID="53">
+			<value>nachfragen wer Uriath ist</value>
+		</target>
+		<target targetID="61">
+			<value>nach dem Versteck des Magiers fragen</value>
+		</target>
+		<target targetID="70">
+			<value>oder dich vor dem offenbar nicht allzu fernen Uriath in Sicherheit bringen</value>
+		</target>
+	</state>
+	
+	<state stateID="46">
+		<text>Von hier führen drei Wege in verschiedene Richtungen. Für welchen Weg entscheidest du dich?</text>
+		<target targetID="38">
+			<value>Nach Westen</value>
+		</target>
+		<target targetID="62">
+			<value>nach Osten</value>
+		</target>
+		<target targetID="71">
+			<value>oder nach Südosten</value>
+		</target>
+	</state>
+	
+	<state stateID="47">
+		<text>Du näherst dich dem Altar. Auf ihm sind einige Gerätschaften aus Silber aufgebaut. Dahinter steht das Götterbild, vierarmig wie seine Anbeter. Es hält eine Helebarde und einen Säbel, eine Ananas und einen wunderbaren Rubin. Wirst du</text>
+		<target targetID="55">
+			<value>erfurchsvoll niederknien</value>
+		</target>
+		<target targetID="99">
+			<value>die Geräte auf dem Altar nehmen</value>
+		</target>
+		<target targetID="107">
+			<value>oder den Rubin deiner Sammlung einverleiben</value>
+		</target>
+	</state>
+	
+	<state stateID="48">
+		<text>Du rufst nach dem Geist, aber nichts geschieht. Offenbar hindert ihn die Präsenz seines Gegners am Erscheinen</text>
+		<target targetID="91">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="49">
+		<text>Du folgst dem Gang einige Windungen entlang. Offenbar wird er schon einige Zeit nicht mehr benutzt. Plötzlich hörst du hinter dir Geräusche. Vorsichtig kehrst du zur letzten Ecke zurück und hälst Ausschau</text>
+		<target targetID="57">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="50">
+		<text>Die Palme hat die letzten Jahre nicht unbeschadet überstanden. Durch die Dürre bedingt, hat sie keine Früchte getrieben. Enttäuscht wendest du dich</text>
+		<target targetID="76">
+			<value>dem Haus</value>
+		</target>
+		<target targetID="58">
+			<value>dem Brunnen</value>
+		</target>
+		<target targetID="42">
+			<value>oder dem Stall zu</value>
+		</target>
+	</state>
+	
+	<state stateID="51">
+		<text>Als du wieder zu dir kommst, hat sich die Umgebung radikal verändert. Du befindest dich in einer Wüstenlandschaft, leblos und sonnendurchglüht, dir vollkommen unbekannt. Du hast weder Ausrüstung noch Kleider bei dir. Plötzlich erscheint vor dir, verschwommen und einer Fata Morgana ähnelnd, eine geisterhafte Erscheinung. Und sie spricht dich an:\n"Sei gegrüßt. Verzeih, daß ich dich störte, aber ich brauche deine Hilfe. Mein Name ist Mentrag, einst bekannt als einer der zauberkundigsten Geister dieser Welt. Seit langer Zeit liege ich in Fehde mit einem bösen Magier. Durch List gelang es ihm, mich gefangenzunehmen. Seither schmachte ich in einem magischen Verlies, und meine Zauberkräfte schwinden immer mehr. Mit letzter Kraft gelang es mir ein Wesen von einer anderen Existensebene hierher zu holen - dich. Ich wußte nicht, wen ich dabei bekommen würde, aber ich hoffe, du wirst mir beistehen. Die Burg des Magiers liegt nördlich von hier. Sie wird von gräßlichen Insektenkriegern bevölkert, die ungefähr deine Größe, aber doppelt so viele Arme haben.\nNur eine Möglichkeit gibt es, die magische Sperren zu überwinden: In der Burg befinden sich an einem geheimen Ort der Stab der Schlange, dessen Zauberkräften keine Sperre wiederstehen kann. Finde ihn und ich bin gerettet." Das Bild des Geistes beginnt zu verblassen. "Meine Kräfte sind fast erschöpft. Aber einmal, nur einmal kann ich dir helfen, wenn du mich rufst." Mit diesen Worten verschwindet er, hinterläßt aber einige Ausrüstungsgegenstände im Sand. Du kleidest dich in eine Lederrüstung (der Rüstungsschutz beträgt: 3), nimmst ein Schwert und eine Laterne auf und findest außerdem noch eine Wasserflasche und einen Beutel mit 10 Golddukaten.</text>
+		<inventory name="find">
+			<item name="Wertgegenstände">+10</item>
+			<item name="Lederrüstung">3</item>
+			<item name="Schwert"></item>
+			<item name="Wasserflasche"></item>
+		</inventory>
+		<target targetID="59">
+			<value>Dann begibst du dich in die vom Geist gewiesene Richtung</value>
+		</target>
+	</state>
+	
+	<state stateID="52">
+		<text>Der Seitenstollen ist nach einigen Metern durch einen Einsturz blockiert. Es ist unmöglich, weiter voranzukommen. Aber im Halbdunkel des Stollenendes fällt dir etwas auf: Einer der Bergleute hat seinerzeit einen Goldklumpen liegenlassen! Eigendlich merkwürdig, denn er ist fast 20 Dukaten Wert und zum Liegenlassen viel zu schade. Aber vielleicht wurden hier ja noch viel wertvollere Schätze gefördert?</text>
+		<inventory name="find">
+			<item name="Wertgegenstände">+20</item>
+		</inventory>
+		<target targetID="60">
+			<value>Du kehst zurück zum Hauptgang</value>
+		</target>
+	</state>
+	
+	<state stateID="53">
+		<text>Allmählich beruhigt sich der Fremde wieder. Offenbar bist du trotz deines durch den Herweg schon leicht lädierten Äußeren noch relativ vertrauenerweckend. Der Alte schüttet dir in aller ausführlichkeit sein Herz aus. Irgendwo hier läuft also Uriath herum, ein Monster, dessen Gräßlichkeit auch nach Abzug aller Übertreibungen noch beeindruckend sein Muß. Leicht erschüttert machst du dich auf den Weitermarsch, immer vorsichtig umschauend, ob nicht ein Verfolger naht</text>
+		<target targetID="70">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="54">
+		<text>Deine Schritte führen dich 18 m nach Norden. Im Dämmerlicht deiner Laterne kannst du dort einen Knick nach Osten erkennen, Dem du folgen mußt. Bis zu einem weiteren Knick sind es abermals 18 m, dort biegt der Gang wieder nach rechts ab und führt nun 18 m nach Süden, wo er zum dritten Mal nach rechts abbiegt. Nach weiteren 12 Metern kommst du an eine Abzweigung</text>
+		<target targetID="46">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="55">
+		<text>Würdevoll läßt du dich auf die Knie nieder und verbeugst dich vor der Gottheit. Plötzlich füllt eine magische Stimme den Tempelraum und fordert von dir eine Opfergabe. Willst du</text>
+		<target targetID="89">
+			<value>sofort den taktischen Rückzug antreten</value>
+		</target>
+		<target targetID="63">
+			<value>ein oder mehrere Stücke deiner Ausrüstung auf dem Altar plazieren</value>
+		</target>
+		<target targetID="99">
+			<value>dir lieber einige der Silbergeräte unter den Nagel reißen</value>
+		</target>
+		<target targetID="107">
+			<value>den Rubin mitnehmen</value>
+		</target>
+	</state>
+	
+	<state stateID="56">
+		<text>Du rüttelst an der Tür, aber sie läßt sich nicht öffne. Du hast das Gefühl, als würden dir nicht Schloß und Riegel, sondern magische Kräfte den Eintritt verwehren</text>
+		<target targetID="91">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="57">
+		<text>Als du um die Ecke schaust, siehst du zwei Insektenkrieger deiner Spur folgen. Du hast offenbar Aufsehen erregt, und die beiden versuchen, als Wachen die Sache zu klären. Möchtest du</text>
+		<target targetID="92">
+			<value>fliehen</value>
+		</target>
+		<target targetID="194">
+			<value>die Insekten angreifen</value>
+		</target>
+		<target targetID="101">
+			<value>dich hinter einem Felsvorsprung verstecken</value>
+		</target>
+		<target targetID="83">
+			<value>oder Mendrag um Hilfe rufen</value>
+		</target>
+	</state>
+	
+	<state stateID="58">
+		<text>Der Brunnen scheint noch relativ gut erhalten, wenn auch Winde und Eimer fehlen. Am Grunde meinst du Wasser wahrzunehmen.\nMöchtest du:</text>
+		<target targetID="67">
+			<value>Vorsichtig in den Brunnen hinabsteigen</value>
+		</target>
+		<target targetID="76">
+			<value>das Haus untersuchen</value>
+		</target>
+		<target targetID="42">
+			<value>zum Stall</value>
+		</target>
+		<target targetID="50">
+			<value>oder zur Palme gehen</value>
+		</target>
+	</state>
+	
+	<state stateID="59">
+		<text>Du gehstin die angegebene Richtung und kommst nach kurzer Zeit an eine Kreuzung. An einem verdorrten Baum siehst du drei alte kaum noch lesbare Wegweiser. Nach Westen heißt es "Silas 300 km", nach Osten liest du "Mherwed 180km", während es in Richtung Süden heißt "Unau 200 km". Nach Norden führt ein schmaler Pfad ins Gebirge.\nWohin wendest du dich?</text>
+		<target targetID="77">
+			<value>Silas</value>
+		</target>
+		<target targetID="103">
+			<value>Mherwed</value>
+		</target>
+		<target targetID="33">
+			<value>Unau</value>
+		</target>
+		<target targetID="151">
+			<value>Ins Gebirge</value>
+		</target>
+	</state>
+	
+	<state stateID="60">
+		<text>Kilometer um Kilometer zieht sich das Stollensystem unterirdisch entlang. Schließlich endet der Gang auf einer Art aus Stein gehauenem Balkon, und du kannst eine weite Höhle überblicken. An ihrem anderen Ende siehst du ein großes Portal, an einer Seitenwand einen kleinen Eingang. Aber um sie zu erreichen, mußt du einige Meter hinunterspringen und wirst nicht mehr zurückkehren können.\nWillst du:</text>
+		<target targetID="11">
+			<value>den Sprung wagen</value>
+		</target>
+		<target targetID="69">
+			<value>zurückkehren</value>
+		</target>
+	</state>
+	
+	<state stateID="61">
+		<text>"Der Magier! Weh mir ob dieser Frage", schreit er Alte. Dann erzählt er von dessen Fähigkeiten, wie dieser sich jederzeit in ein beliebiges Tier verwandeln kann. Von dem Pakt des Magiers mit den 79 Teufeln der 3.Unterwelt. Von geheimen Schätzen unter dem Verlies, in dem tausende Kreaturen elend schmachten und tagtäglich von den widerlichen Dienern grausam gefoltert werden. Von der Nixe, die im Brunnen des Burghofes für 9 mal 9 mal 9 Jahre gefangengehalten wird und jeden Vollmond einen Tropfen ihres Herzblutes für die schrecklichen Experimente des Magiers opfern muß...</text>
+		<target targetID="70">
+			<value>Entsetzt hältst du dir die Ohren zu und fliehst</value>
+		</target>
+	</state>
+	
+	<state stateID="62">
+		<text>Nachdem du ungefähr zwölf Meter nach Osten gelaufen bist, biegt der Gang, in dem du dich befindest, nach links ab. Von hier aus sind es 18 m bis zum nächsten Knick. Als du nach links blickst, kannst du in 18 m Entfernung eine Einmündung erkennen</text>
+		<target targetID="38">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="63">
+		<text>Die geopferten Gegenstände verschwinden auf einmal spurlos vom Altar. War ihr Gesamtwert</text>
+		<target targetID="72">
+			<value>größer als 8 Dukaten</value>
+		</target>
+		<target targetID="81">
+			<value>war der Wert kleiner oder gleich 7 Dukaten</value>
+		</target>
+	</state>
+	
+	<state stateID="64">
+		<text>Auf dein Signal öffnet sich eine winzige Klappe im Boden, und ein zwergenhaftes Wesen kommt herausgekrabbelt. Auf einem Tablett hat es gelblichen Kuchen draiert und bietet dir diesen stumm an.\nWirst du</text>
+		<target targetID="73">
+			<value>davon essen</value>
+		</target>
+		<target targetID="82">
+			<value>oder lieber darauf verzichten</value>
+		</target>
+	</state>
+	
+	<state stateID="65">
+		<text>Das Dach des Turmes ist eine etwa 100m² große, kreisförmige Fläche, die von einer leicht zerfallenen Steinbrüstung begrenzt wird. Ein morscher alter Fahnenmast ragt in die Himmel, daneben hängt eine große Alarmglocke. Einige Meter von dir entfernt steht ein hölzernes Katapult, das mit einem  schweren Steinbrocken geladen ist.\nGleich daneben hat ein orangefarbener Vogel sein Nest gebaut.\nMöchtest du</text>
+		<target targetID="145">
+			<value>die Glocke läuten</value>
+		</target>
+		<target targetID="135">
+			<value>das Katapult auslösen</value>
+		</target>
+		<target targetID="154">
+			<value>dir den Vogel näher anschauen</value>
+		</target>
+		<target targetID="127">
+			<value>oder den Turm wieder hinuntersteigen</value>
+		</target>
+	</state>
+	
+	<state stateID="66">
+		<text>Vor dir auf dem Block liegt der Stab der Schlange. Du nimmst ihn und verleibst ihn deiner Ausrüstung ein. Aber auf einmal erschüttern Erdstöße den Tempel, als wollte die Gottheit ihren Verlust beklagen. Risse entstehen in den Wänden, und du stürzt in wilder Hast die Treppe hinauf. Unbehelligt erreichst du den Ausgang, aber hinter dir beginnt der Tempel zusammenzustürzen</text>
+		<inventory name="find">
+			<item name="Stab der Schlange">1</item>
+		</inventory>
+		<target targetID="6">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="67">
+		<text>Obwohl du vorsichtig hinunterkletterst, verlierst du den Halt und fällst in die Tiefe. Glücklicherweise ist der Brunnen tatsächlich noch mit Wasser gefüllt. Du wirst also nicht verdursten, aber wie du wieder nach oben kommen willst, wissen nur die Götter.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="68">
+		<text>An dieser Stelle führen drei Gänge ins Unbekannte. Willst du</text>
+		<target targetID="179">
+			<value>nach Norden</value>
+		</target>
+		<target targetID="142">
+			<value>nach Westen</value>
+		</target>
+		<target targetID="160">
+			<value>oder nach Osten</value>
+		</target>
+	</state>
+	
+	<state stateID="69">
+		<text>Du verläßt das Bergwerk wieder durch den Hauptstollen und folgst weiter deinem Weg nach Osten</text>
+		<target targetID="120">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="70">
+		<text>Aus dem rauh behauenen Felsgang wird allmählich ein säuberlich gemauerter Korridor. Du gelangst an eine Kreuzung</text>
+		<target targetID="79">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="71">
+		<text>Du läufst ungefähr 25 Meter bis zur großen Kreuzung</text>
+		<target targetID="88">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="72">
+		<text>Feierliche Musik ertönt, und die Stimme der Gottheit spricht einen langen wundersamen Segen auf dich. Dadurch wirst du die nächste Zeit stärker auf die Hilfe der Glücksgöttin vertrauen können. Du kannst dich jetzt weiter im Tempel umschauen, aber eine innere Stimme hindert dich daran, dich nochmals dem Altar zu nähern.</text>
+		<target targetID="39">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="73">
+		<text>Der Kuchen schmeckt ausgezeichnet, und du kannst dir für diesen Genuß 2 Lebenspunkte dazu addieren. Möglicherweise wirst du sie schon bald benötigen. Das kleine Wesen ist schon wieder verschwunden, und die Klappe im Boden läßt sich nicht öffnen</text>
+		<modify name="health">
+			<value>+2</value>
+		</modify>
+		<target targetID="91">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="74">
+		<text>Die toten Krieger haben nichts Interessantes oder Wertvolles bei sich. Möchtest du</text>
+		<target targetID="79">
+			<value>dem Gang weiter folgen</value>
+		</target>
+		<target targetID="109">
+			<value>oder zur Halle zurückkehren</value>
+		</target>
+	</state>
+	
+	<state stateID="75">
+		<text>Du schluckst die Flugperle und trittst an die Brüstung. Ohne dich weiter um das geschnatter des Vogels zu kümmern, visierst du dein Ziel an und fliegst los</text>
+		<target targetID="126">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="76">
+		<text>Die Aufmachung des Hauses erinnert dich unwillkürlich an einen Gasthof oder eine Karawanserei. Hinter der Eingangstür befindet sich eine kleine Diele, die wiederum in einen großen Raum führt, wohl eine ehemalige Wirtsstube. Im Dämmerlicht nimmst du plötzlich eine Bewegung wahr. Du hast offenbar jemanden überrascht! Wie aus dem Boden gewachsen steht zwei Meter vor dir ein Mann mittleren Alters, gekleidet in den wallenden Stoffgewändern eines Wüstennomaden.\nWirst du</text>
+		<target targetID="84">
+			<value>ihn angreifen</value>
+		</target>
+		<target targetID="119">
+			<value>mit ihm Handel zu treiben versuchen</value>
+		</target>
+		<target targetID="102">
+			<value>oder ihm von deiner Mission erzählen</value>
+		</target>
+	</state>
+	
+	<state stateID="77">
+		<text>Du marschierst eine ganze Weile geradeaus nach Westen. Die Gegend wird immer steiniger, der Pfad ist kaum noch erkennbar. Hoch über dir kreisen einige dunkle Punkte.\nWillst du</text>
+		<target targetID="40">
+			<value>weitergehen</value>
+		</target>
+		<target targetID="59">
+			<value>oder lieber umkehren</value>
+		</target>
+	</state>
+	
+	<state stateID="78">
+		<text>Dir gelingt es, ungesehen bis auf 30 m an den Eingang heranzukommen. Vor dem Tor siehst du 4 Insektenkrieger, die Wache stehen. Was nun?\nWillst du:</text>
+		<target targetID="121">
+			<value>zum direkten Angriff vorgehen</value>
+		</target>
+		<target targetID="96">
+			<value>auf den Schutz der Nacht warten</value>
+		</target>
+		<target targetID="86">
+			<value>dich mit einer Ausrede an den Wachen vorbeimogeln</value>
+		</target>
+		<target targetID="112">
+			<value>Mendrag um Hilfe anrufen</value>
+		</target>
+	</state>
+	
+	<state stateID="79">
+		<text>Du kommst an eine Kreuzung. Gänge führen nach Osten, nach Süden und nach Norden.</text>
+		<target targetID="87">
+			<value>Osten</value>
+		</target>
+		<target targetID="88">
+			<value>Süden</value>
+		</target>
+		<target targetID="106">
+			<value>Norden</value>
+		</target>
+	</state>
+	
+	<state stateID="80">
+		<text>Von der Kreuzung aus gehst du ungefähr 25 Meter nach Nordwesten, dann gelangst du wieder an eine Einmündung</text>
+		<target targetID="46">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="81">
+		<text>Offenbar hat dein knauseriges Opfer die Gottheit beleidigt. Ein unheilvolles Brausen erfüllt die Luft, und kleine fahle Blitze zucken von der Decke auf den Altar. Du wartest die weitere Entwicklung nicht mehr ab und machst dich auf den Rückzug</text>
+		<target targetID="89">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="82">
+		<text>Auf deine abwehrende Geste hin gibt das Wesen einen beleidigend klingenden Schnalzlaut von sich und verschwindet blitzschnell im Boden. Es gelingt dir nicht, die Klappe zu öffnen.</text>
+		<target targetID="91">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="83">
+		<text>Du rufst Mendrag um Hilfe an, und plötzlich liegen beide Insektenkrieger ohne ein Zeichen von Gewaltanwendung tot am Boden. Denke daran, daß du nun von dem Geist keine Hilfe mehr erbitten kannst</text>
+		<target targetID="74">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="84">
+		<text>Du ziehst dein Schwert und greifst an. Blitzschnell hat auch der Fremde zum Säbel gegriffen, und der Kampf beginnt.</text>
+		<enemy name="Nomade">
+			<skill bravery="11"></skill>
+			<skill hitpoints="18"></skill>
+			<skill attack="4"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="4"></skill>
+			<skill parry="3"></skill>
+			<skill armor="2"></skill>
+		</enemy>
+		<target targetID="94">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="85">
+		<text>Durch das Sichtfenster siehst du ... den Magier in Person. Schaudernd betrachtest du ihn, wie er mit seinen vier Armen herumhantiert</text>
+		<target targetID="91">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="86">
+		<text>Du näherst dich dem Tor und willst gerade eine wohlformulierte Lüge vom Stapel lassen, als die Krieger schon zum Angriff übergehen.</text>
+		<target targetID="121">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="87">
+		<text>Du gehst den Gang entlang und entdeckst plötzlich eine Pergamentrolle auf dem Boden. Als du sie aufhebst und entrollst, liest du:\n"Zauberspruch. Katalognummer 134. Garantie: 6 Monate. Spruch: Vamurgus - Kantazubus.\n Anwendung: Wirkt gegen Kakerlaken, Blindschleichen, Elefanten, Rehpinscher, Magier, Halborks, Gromoffen und Überschwemmungen sowie gegen jede andere Unbill der Kategorien 3 und 4. Nicht verwenden bei Untoten, Bürokraten und Unwohlsein."\nDu steckst die Rolle ein und beschließt, sie nur im äußersten Notfall anzuwenden, denn bekanntlich können Spruchrollen nur einmal eingesetzt werden, dann sind sie unbrauchbar</text>
+		<inventory name="find">
+			<item name="Zauberspruchrolle">1</item>
+		</inventory>
+		<target targetID="123">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="88">
+		<text>Von hier aus führen fünf dunkle Gänge ins Ungewisse. Jeder sieht finster und unheimlich aus. Welche Richtung schlägst du ein?</text>
+		<target targetID="80">
+			<value>Nach Nordwesten</value>
+		</target>
+		<target targetID="28">
+			<value>nach Südwesten</value>
+		</target>
+		<target targetID="142">
+			<value>nach Süden</value>
+		</target>
+		<target targetID="174">
+			<value>nach Osten</value>
+		</target>
+		<target targetID="98">
+			<value>oder nach Norden</value>
+		</target>
+	</state>
+	
+	<state stateID="89">
+		<text>Panikerfüllt stürzt du dem Ausgang entgegen. "Stürzt" ist das richtige Wort, denn in der Eile stolperst du über eine Stufe und verlierst zwei Lebenspunkte. Falls du das überstehst, gelingt es dir, dich zum Ausgang zu retten.</text>
+		<modify name="health">
+			<value>-2</value>
+		</modify>
+		<target targetID="6">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="90">
+		<text>Erfrischt verläßt du das Wasser und trocknest dich ab (das Handtuch liegt hinter dem Primelbeet links). Danach hast du wieder die Wahl:</text>
+		<target targetID="6">
+			<value>Norden</value>
+		</target><target targetID="13">
+			<value>Osten</value>
+		</target>
+	</state>
+	
+	<state stateID="91">
+		<text>Wirst du nun:</text>
+		<target targetID="22">
+			<value>im Westen die Türklappe öffnen</value>
+		</target>
+		<target targetID="8">
+			<value>oder die Tür benutzen</value>
+		</target>
+		<target targetID="30">
+			<value>die Klappe im Norden</value>
+		</target>
+		<target targetID="85">
+			<value>oder die im Osten öffnen</value>
+		</target>
+		<target targetID="56">
+			<value>durch die nördliche</value>
+		</target>
+		<target targetID="100">
+			<value>oder die östliche Tür treten</value>
+		</target>
+		<target targetID="48">
+			<value>oder gar Mendrag um Hilfe rufen?</value>
+		</target>
+	</state>
+	
+	<state stateID="92">
+		<text>Mit größtmöglicher Geschwindigkeit entfernst du dich von deinen Feinden. Die Geräusche hinter dir verstummen nach einiger Zeit, vielleicht sind deine Verfolger sogar umgekehrt</text>
+		<target targetID="79">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="93">
+		<text>Der Trank ist wirklich sein Geld wert. Bei der Einnahme vor einem Kampf darf man in jeder Kampfrunde zweimal zuschlagen. Nach dem Kampf verfliegt die Wirkung allerdings wieder. Die Portion reicht für einen Kampf.\nDu steckst den Trank ein und verabschiedest dich hastig, denn eben holt der Vogel zu einer neuen Geschichte aus</text>
+		<inventory name="find">
+			<item name="Zaubertrank">1</item>
+		</inventory>
+		<target targetID="127">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="94">
+		<text>Du steckst erschöpft dein Schwert weg und durchsuchst die Leiche des besiegten Gegners. Dabei findest du 5 Dukaten in einem Lederbeutel, einen reich verzierten Dolch und eine kleine weiße Pfeife. Hinter em Haus angebunden findest du ein gezäumtes Kamel</text>
+		<target targetID="137">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="95">
+		<text>Auf allen vieren schleppst du dich weiter, ringsum glühende Wüste, vor dir die lockende Fata Morgana. Warum spielt die Musik so laut ...? Immer weiter ... Die Geier werden ein Festmal habe...</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="96">
+		<text>Du wartest den Einbruch der Dunkelheit in einem Notdürftigen Versteck ab. Die Wachen werden abgelöst, aber die Ablösung sich bald nach Sonnenuntergang zum Schlafen nieder. Das ist deine Chance! Leise versuchst du dich vorbeizuschleichen.</text>
+		<target targetID="104">
+			<value>Geschicklichkeitsprobe gelungen</value>
+		</target>
+		<target targetID="121">
+			<value>Geschicklichkeitsprobe misslungen</value>
+		</target>
+	</state>
+	
+	<state stateID="97">
+		<text>Mendrag materalisiert und erkennt sofort dein Problem: "Unglückseliger, du bist in das Verlies der verlohrenen Seelen geraten! Nur mit Zaubermacht kannst du dich hier retten. Höre:Erkunde das Labyrinth und zeichne seinen Grundriß auf. Du wirst vier Zauberbuchstaben erhalten. Stelle ihren Platz im Alphabet fest und addiere die vier Zahlen. Diese Nummer sprichst du an einer beliebigen Stelle des Irrgartens, und du wirst errettet werden".\nVerwirrt versuchst du aus diesem Orakel schlau zu werden. Als das Bild des Geistes verblaßt, wird dir außerdem klar, daß du nie wieder auf seine Hilfe zählen kannst. Du kehrst der Sackgasse den Rücken</text>
+		<target targetID="4">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="98">
+		<text>Hier stehst du vor drei möglichen Richtungen:</text>
+		<target targetID="106">
+			<value>Norden</value>
+		</target>
+		<target targetID="123">
+			<value>Osten</value>
+		</target>
+		<target targetID="88">
+			<value>Süden</value>
+		</target>
+	</state>
+	
+	<state stateID="99">
+		<text>Als du das erste Gerät einstecken willst, glüht es plötzlich weiß auf. Du stößt einen Schrei aus, läßt es fallen und verlierst sieben Lebenspunkte. Schnell wendest du dich zur Flucht</text>
+		<modify name="health">
+			<value>-7</value>
+		</modify>
+		<target targetID="89">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="100">
+		<text>Du öffnest die Tür und stehst dem Magier höchstpersönlich gegenüber. Dieser nimmt eine drohende Haltung ein, und du mußt jetzt</text>
+		<target targetID="117">
+			<value>kämpfen</value>
+		</target>
+		<target targetID="125">
+			<value>zaubern</value>
+		</target>
+		<target targetID="108">
+			<value>fliehen</value>
+		</target>
+		<target targetID="144">
+			<value>dem Magier ganz friedlich das Ziel deiner Mission erläutern</value>
+		</target>
+	</state>
+	
+	<state stateID="101">
+		<text>Dir gelingt es, dich hinter einem Felsen zu verstecken. Allerdings hast du nicht bedacht, daß die Insekten auch weiterhin deine Spuren verfolgen können. Daher haben sie dich im Nu gestellt und überrascht. Beim folgenden Kampf haben sie deswegen unabhängig von den Mut-Werten den ersten Schlag</text>
+		<target targetID="194">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="102">
+		<text>Der Fremde hört dir aufmerksam zu und nickt dann zustimmend. Er hat schon von diesem Magier gehört und die Umgebung seiner Burg erkundet. Er empfield dir den schlecht bewachten Hintereingang und zeigt dir sogar einige Meter von der Karawanserei entfernt einen Pfad, der dich nordwärts dorthin führen wird.\nDu dankst ihm herzlich, und ihr wünscht euch gegenseitig Glück für die Weiterreise durch die Wildnis</text>
+		<target targetID="110">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="103">
+		<text>Stundenlang zieht sich der Weg in Schleifen durch das Hügelland. Nur kleine Büsche und dürre Kräuter können hier existieren. Immer noch brennt die Sonne erbarmungslos vom Himmel. \nMöchtest du:</text>
+		<target targetID="111">
+			<value>weitergehen</value>
+		</target>
+		<target targetID="59">
+			<value>oder zur Kreuzung zurückkehren</value>
+		</target>
+	</state>
+	
+	<state stateID="104">
+		<text>Du befindest dich in einem kleinen Vorhof hinter dem Tor. Eine Treppe führt ins Gebäudeinnere. Aber bevor du sie betreten kannst, tritt ein Insektenkrieger heraus, offenbar eine einsame Streife. Du mußt ihn besiegen, um nicht verraten zu werden.</text>
+		<enemy name="Insektenkrieger">
+			<skill bravery="12"></skill>
+			<skill hitpoints="12"></skill>
+			<skill attack="4"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="2"></skill>
+			<skill parry="3"></skill>
+			<skill armor="2"></skill>
+		</enemy>
+		<target targetID="164">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="105">
+		<text>Du entzündest die Laterne und betrittst einen Gang, der tiefer in die Burg führt</text>
+		<target targetID="126">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="106">
+		<text>Ein enger und bedrückender Gang führt dich etwa 18 m nach Norden, dort biegt er dann plötzlich nach rechts ab, und du folgst ihm noch 24 m, bevor er wieder nach rechts abbiegt. Nach 18 m kommst du an eine Einmündung</text>
+		<target targetID="123">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="107">
+		<text>Gierig greifst du nach dem Rubin, aber das Standbild hält ihn fest in der Hand. Und da beginnt es plötzlich zu bewegen! Dir steht offenbar eine Konfrontation mit einem lebendig gewordenen Götterbild bevor.\nDu solltest:</text>
+		<target targetID="89">
+			<value>fliehen</value>
+		</target>
+		<target targetID="124">
+			<value>Mendrag zu hilfe rufen</value>
+		</target>
+		<target targetID="138">
+			<value>dich mit der Waffe verteidigen</value>
+		</target>
+	</state>
+	
+	<state stateID="108">
+		<text>Du wirbelst herum und flüchtestdem Ausgang zu. Aber hinter dir hat der Magier schon einen fürchterlichen Zauber gesprochen; ein stechender Schmerz durchzuckt dich, und du wirst nun ewig leben: als rotes Fünkchen in einer blauen Wolke.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="109">
+		<text>Du kehrst in den Seitengang zurück und beschliest, die Rampe zu erkunden</text>
+		<target targetID="118">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="110">
+		<text>Du folgst dem Pfad nach Norden bis in das Gebirge. Zu deiner Rechten siehst du die Burg des Magiers aufragen. Der Pfad führt um die Burg herum und kann von dieser aus nicht gesehen werden. Schlieslich erreichst du den versteckt liegenden Hintereingang</text>
+		<target targetID="140">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="111">
+		<text>Als der Weg in eine neue Schlucht einbiegt, siehst du linker Hand, hinter ein paar Büschen versteckt, einen alten aufgegebenen Mineneingang. Die ersten Meter, die du vom Eingang erkennen kannst, scheinen begehbar zu sein.\nWillst du</text>
+		<target targetID="10">
+			<value>die Mine erkunden</value>
+		</target>
+		<target targetID="31">
+			<value>oder dem Weg weiter nach Osten folgen?</value>
+		</target>
+	</state>
+	
+	<state stateID="112">
+		<text>Mendrag reagiert sofort auf deinen Hilferuf und versetz dich auf magische Weise in die Burg. Er ermahnt dich, nicht zu lange zu zögern, da der Magier an finsteren Plänen arbeitet.</text>
+		<target targetID="104">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="113">
+		<text>Drohend steht Uriath vor dir. "Ich werde dich vernichten!"brüllt er."Wie ich bisher alle vernichtet habe, die sich mir in den Weg gestellt haben. Mein Ruhm wird mit jedem besiegten Feind wachsen, und du wirst der nächste sein."Dann geht er zum Angriff über!\nDu verwünscht den Moment, der dich diesem Berserker über den Weg führte, aber dir bleibt keine andere Wahl, als dich deiner Haut zu wehren. Und du verdienst auch nichts Besseres, denn wie bist du zu dieser Nummer gekommen, wenn du korrekt gespielt hast?</text>
+		<enemy name="Uriath">
+			<skill bravery="15"></skill>
+			<skill hitpoints="35"></skill>
+			<skill attack="5"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="4"></skill>
+			<skill parry="4"></skill>
+			<skill armor="4"></skill>
+		</enemy>
+		<target targetID="79">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="114">
+		<text>Du betrittst eine Art Galerie, die am Rand einer großen Höhle entlangführt. Unter dir siehst du viele Insekten durcheinanderwimmeln. Sie transportieren Larven oder Lebensmittel, ohne auf die Galerie zu achten und dich zu entdecken.\nWillst du</text>
+		<target targetID="122">
+			<value>sie mit einem kühnen Sprung nach unten überraschen</value>
+		</target>
+		<target targetID="131">
+			<value>sie mit einem Stück deiner Ausrüstung bewerfen,um sie abzulenken</value>
+		</target>
+		<target targetID="141">
+			<value>oder die Galerie am anderen Ende wieder verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="115">
+		<text>Du hast dich dem nördlichen Gang zugewendet und gehst ungefährt 18 m, bis sich der Gang nach Westen wendet. Nach 24 m biegst du nach Süden ab , wo du nach 18 m auf eine Einmündung gelangst</text>
+		<target targetID="98">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="116">
+		<text>Du hast also wirklich das Standbild besiegt.\nAls die Statue zu Boden stürzt , scheint auch der ihr geweihte Tempel zum Untergang verurteilt. Wände und Boden lösen sich in Nichts auf, und nur wie durch ein Wunder kannst du den Ausgang erreichen</text>
+		<target targetID="6">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="117">
+		<text>Du ziehst dein Schwert, aber auch dein Gegner hat plötzlich Waffen in den Händen, einen Morgenstern in der oberen rechten Hand, einen Säbel in der unteren linken, die anderen beiden Hände greifen nach den Zutaten zu einem Zauber.\nDu kannst:</text>
+		<target targetID="108">
+			<value>nun doch fliehen!</value>
+		</target>
+		<target targetID="199">
+			<value>Kämpfen!</value>
+		</target>
+	</state>
+	
+	<state stateID="118">
+		<text>Die Rampe führt in weiten Windungen den Turm hinauf. Linker Hand kannst du ab und zu durch eines der dreieckigen Fenster die wilde Gebirgslandschaft vor der Burg überblicken. Rechts im Turminneren liegen viele kleine und mittelgroße Räume. Durch kleine Fensterehen in den Türen erkennst du Wohnzellen der Insekten, und es erscheint dir nicht ratsam, hineinzugehen. Nur einmal begegnet dir eine einsame Streife, aber es gelingt dir ohne Schwierigkeiten, dich hinter einem Vorsprung zu verstecken. Schließlich gelangst du ohne weitere Zwischenfälle auf das Dach des Turms</text>
+		<target targetID="65">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="119">
+		<text>Der Fremde geht auf deine freundliche Annäherung erleichtert ein, und ihr tauscht Grüße und Höflichkeitsfloskeln aus. Er bietet dir gegen 10 Dukaten ein Kamel oder kostenlos einen guten Ratschlag an. Möchtest du</text>
+		<target targetID="128">
+			<value>das Wüstenschiff erwerben</value>
+		</target>
+		<target targetID="102">
+			<value>oder ihn wegen deiner Aufgabe um Rat fragen</value>
+		</target>
+	</state>
+	
+	<state stateID="120">
+		<text>Dem monotonen Auf und Ab der Hügel folgend gehst du den Weg entlang nach Osten</text>
+		<target targetID="18">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="121">
+		<text>Die vier Insektenkrieger sind keine leichten Gegner.\nEs kämpfen immer zwei Krieger gleichzeitig gegen dich, besiegst du einen, wird seine Stelle von einem anderen eingenommen , bis du alle überwunden hast.</text>
+		<target targetID="164">
+			<value>Kampf gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Gestorben</value>
+		</target>
+	</state>
+	
+	<state stateID="122">
+		<text>Kühn schwingst du dich über das Geländer und landest unter den überraschten Kreaturen. Sofort stürzen sie sich auf dich. Obwohl du dich tapfer wehrst, erliegst du bald der ungeheuren Übermacht. Die Insekten zerteilen dich in kleine Stücke und lagern dich als Wintervorrat ein.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="123">
+		<text>Drei Richtungen stehen dir zur Auswahl. Wendest du dich nach</text>
+		<target targetID="115">
+			<value>Norden</value>
+		</target>
+		<target targetID="98">
+			<value>Westen</value>
+		</target>
+		<target targetID="132">
+			<value>Süden</value>
+		</target>
+	</state>
+	
+	<state stateID="124">
+		<text>Mendrag materialisiert und erfaßt im selben Augenblick deine Notlage. "Fliehe sofort!" ruft er dir zu und baut einen magischen Schutzschild auf, der den Gegner für einige Momente zurückhält. Du kommst sicher zum Tempelausgang, während der Geist hinter dir wieder verschwindet</text>
+		<target targetID="6">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="125">
+		<text>Zaubern ist Laien normalerweise nicht möglich.</text>
+		<target targetID="134">
+			<value>Zum Glück hast du die Zauberspruchrolle!</value>
+		</target>
+		<target targetID="117">
+			<value>Darum musst du Kämpfen</value>
+		</target>
+		<target targetID="108">
+			<value>oder fliehen</value>
+		</target>
+		<target targetID="144">
+			<value>oder dem Magier friedlich von deinen Absichten erzählen</value>
+		</target>
+	</state>
+	
+	<state stateID="126">
+		<text>Irgendwie stimmt deine Flugbahn nicht mit dem geplanten Kurs überein. Der kleine orangefarbene Vogel kommt dir im Sturzflug nach und kreischt "Halt, nicht so schnell, vor dem Abflug mußt du noch den Zauberspruch sage. Außerdem mußt du die Flügel mehr spreizen. Meine Güte, ich habe vier Kinder aufgezogen, aber keines hat sich bei seinem ersten Flug so blöd angestellt. Kopf anlegen, und schnellere Flügelschläge. Bist du noch an dem Diadem interessiert? Flieg nicht so nah an den Felsen vorbei, das ist gefährlich . . ." Mit einem dumpfen Aufprall bohrst du ein tiefes Loch in den Boden, endlich verstummt das nervende Gezwitscher.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="127">
+		<text>Dein Abstieg die Turmrampe hinunter ist gefahrvoll. Einigen Insektenkriegern kannst du nur mit Glück ausweichen, indem du dich in dunklen Ecken verborgen hältst, bis sie vorbei sind. Endlich erreichst du den großen Raum an der Basis des Turms. Ein zweites Mal wirst du den Turm nicht unentdeckt emporsteigen können.</text>
+		<target targetID="15">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="128">
+		<text>Du zahlst dem Nomaden die 10 Dukaten, und er führt dich hinter das Haus, wo ein wirklich kräftiges und gesundes Kamel angebunden steht. Du verabschiedest dich dankend von ihm, und er wünscht dir alle Segnungen des Wüstengottes. Danach kehrt er ins Haus zurück</text>
+		<target targetID="137">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="129">
+		<text>Eine weitere Tür führt dich in einen leeren Lagerraum . Die Regale sind verstaubt, und alte Säcke und Kisten liegen in den Ecken.\nRechter Hand siehst du eine Tür, geradeaus führt eine steile Rampe nach unten. Du kannst sie gefahrlos benutzen, könntest aber nicht wieder umkehren und heraufklettern.\nNimmst du:</text>
+		<target targetID="114">
+			<value>die Tür</value>
+		</target>
+		<target targetID="191">
+			<value>die Rampe?</value>
+		</target>
+	</state>
+	
+	<state stateID="130">
+		<text>Du umkreist die Burg, und nach einiger Zeit entdeckst du einen versteckten Hintereingang. Möchtest du ihn benutzen oder doch lieber durch das vordere Tor gehen? </text>
+		<target targetID="140">
+			<value>Hintereingang</value>
+		</target>
+		<target targetID="78">
+			<value>Haupttor</value>
+		</target>
+	</state>
+	
+	<state stateID="131">
+		<text>Dein Wurf macht, wie erwartet, alle Insekten auf dich aufmerksam. Noch bevor du viel unternehmen kannst, kommen sie von beiden Seiten der Galerie angerannt . Gegen eine solche Übermacht hast du keine Chance - du mußt dich ergeben. Du wirst gefangengenommen. Wie du wieder aus dem finsteren Verlies entkommst ...nun, das ist eine andere Geschichte.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="132">
+		<text>Nach 18 Metern Schutt und Geröll kommst du in diesem roh aus der Felswand gehauenen Gang an eine große Geröllhalde, die dir den Weg versperrt. Bevor du dich umdrehen kannst, um wieder zurückzugehen, greift dich eine Ratte an. Du mußt sie bekämpfen.</text>
+		<enemy name="Ratte">
+			<skill bravery="8"></skill>
+			<skill hitpoints="9"></skill>
+			<skill attack="3"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="0"></skill>
+			<skill parry="3"></skill>
+			<skill armor="1"></skill>
+		</enemy>
+		<target targetID="123">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="133">
+		<text>Du steigst die Treppe hinunter und erreichst eine aus dunklem Stein erbaute Kammer. Beherrschendes Element in ihr ist ein Gesteinsblock, in dem ein seltsam verzierter Stab steckt. Links davon brennt in einer Goldschale eine Flamme, die in unregelmäßigen Abständen die Farbe wechselt. Rechts fließt Wasser aus einer kleinen Fontäne in ein silbernes Becken. Möchtest du</text>
+		<target targetID="152">
+			<value>die Flamme löschen</value>
+		</target>
+		<target targetID="143">
+			<value>von dem Wasser trinken</value>
+		</target>
+		<target targetID="175">
+			<value>den Stab aus dem Block ziehen</value>
+		</target>
+		<target targetID="161">
+			<value>Mendrag zu Hilfe rufen</value>
+		</target>
+	</state>
+	
+	<state stateID="134">
+		<text>Du liest die Worte auf der Zauberspruchrolle, und das Pergament zerkrümelt zu Staub. Aber die magischen Gewalten , die du damit entfesselt hast, haben dem Magier das Leben gekostet</text>
+		<target targetID="169">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="135">
+		<text>Du löst den Schleudermechanismus aus, und der Stein wird mit ungeheurer Wucht losgeschleudert. Du siehst ihn im hohen Bogen durch die Luft fliegen und zwischen den Hügeln einschlagen. Weiter passiert nichts.\nWillst du nun</text>
+		<target targetID="145">
+			<value>die Glocke läuten?</value>
+		</target>
+		<target targetID="154">
+			<value>den Vogel besuchen?</value>
+		</target>
+		<target targetID="127">
+			<value>dich wieder an den Abstieg machen?</value>
+		</target>
+	</state>
+	
+	<state stateID="136">
+		<text>"Ach ist das schön, endlich einmal wieder ein honoriger Kunde, und ich habe so wunderschöne Waren da, wirklich empfehlenswert, ich habe sie günstig von Cousin Eberhard bekommen, 2 Jahre Garantie ... " Er zieht aus einer Felsspalte einige Gegenstände. "Siehst du, hier habe ich einen ganz wunderbaren Zaubertrank, nur fünf Dukaten, aus den geheimen Laboren des Alchimisten von Pensleg, und dann die Flugperlen, nur sieben Dukaten. Wenn man sie schluckt, kann man über eine Stunde lang fliegen, sie sind also genau das, was du suchst. Und dann hier für 10 Dukaten, das Diadem der Macht, reines Metall, würdig der Königin der Nordlande, eine wunderbare Auswahl, findest nicht?"</text>
+		<target targetID="127">
+			<value>Gehen</value>
+		</target>
+		<target targetID="93">
+			<value>den Zaubertrunk kaufen</value>
+		</target>
+		<target targetID="75">
+			<value>Flugperlen kaufen</value>
+		</target>
+		<target targetID="146">
+			<value>Diadem kaufen</value>
+		</target>
+	</state>
+	
+	<state stateID="137">
+		<text>In dem Moment, als du das Kamel besteigen willst, erscheint plötzlich vor dir ein unscharfes und durchsichtiges Bild deines Auftragebers . Dieser heult: "Unglückseliger, was zögertest du so lange! Während du in die vollkommen verkehrte Richtung gingst , raubte mir mein Feind die letzte Lebensenergie. Ich vergehe, doch ewiger Fluch sei dir Saumseligem!" Das Bildnis verschwindet, und dir wird klar, daß dir damit die letzte Möglichkeit zur Rückkehr genommen ist. Das Schicksal hat dich für immer in diese Welt verschlagen. Du steigst dein Kamel und reitest gen Unau in der Hoffnung, dort dein Glück zu machen.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="138">
+		<text>Behende bewegt sich die Gottheit auf dich zu:</text>
+		<enemy name="Gottheit">
+			<skill bravery="9"></skill>
+			<skill hitpoints="20"></skill>
+			<skill attack="5"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="2"></skill>
+			<skill parry="3"></skill>
+			<skill armor="4"></skill>
+		</enemy>
+		<enemy name="Gottheit">
+			<skill bravery="9"></skill>
+			<skill hitpoints="20"></skill>
+			<skill attack="5"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="4"></skill>
+			<skill parry="0"></skill>
+			<skill armor="99"></skill>
+		</enemy>
+		<target targetID="116">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="139">
+		<text>Beim Durchsuchen findest du einige aus Knochen geschnitzte Würfel und ein unbenutztes Stück Pergament. Dann verläßt du den Raum</text>
+		<target targetID="70">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="140">
+		<text>Langsam gehst du auf den Eingang zu und beobachtest aufmerksam die Burg über dir. Aber nichts regt sich hinter den dreieckigen Fenstern. Dafür springt hinter einem Felsen eine Riesenspinne hervor, die dich offenbar als Abendessen vorgesehen hat.</text>
+		<enemy name="Riesenspinne">
+			<skill bravery="14"></skill>
+			<skill hitpoints="9"></skill>
+			<skill attack="3"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="1"></skill>
+			<skill parry="3"></skill>
+			<skill armor="1"></skill>
+		</enemy>
+		<target targetID="149">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="141">
+		<text>Du schleichst dich unbemerkt die Galerie entlang. Der Ausgang führt dich auf einen kleinen Flur, der sich in zwei Gänge gabelt.\nWillst du:</text>
+		<target targetID="150">
+			<value>den linken Gang nehmen?</value>
+		</target>
+		<target targetID="173">
+			<value>den rechten Gang nehmen?</value>
+		</target>
+	</state>
+	
+	<state stateID="142">
+		<text>Von hier aus führen·drei Wege in verschiedene Richtungen. Welchem willst du folgen? Dem nach</text>
+		<target targetID="88">
+			<value>Norden</value>
+		</target>
+		<target targetID="68">
+			<value>Osten</value>
+		</target>
+		<target targetID="167">
+			<value>Süden</value>
+		</target>
+	</state>
+	
+	<state stateID="143">
+		<text>Du trinkst von dem kühlen klaren Wasser, und auf einen Schlag erweitert sich dein Erkenntnishorizont enorm. Dir wird bewußt, daß nur das eisige Weiß dich weiterbringen kann, daß du neben dem Stab der Schlange stehst und daß du dem Magier nie den Rücken zuwenden darfst.</text>
+		<target targetID="152">
+			<value>Möchtest du das Feuer löschen</value>
+		</target>
+		<target targetID="175">
+			<value>den Stab aus dem Block ziehen</value>
+		</target>
+		<target targetID="168">
+			<value>oder die Krypta verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="144">
+		<text>Du berichtest von deinem Auftrag und deinen bisherigen Erlebnissen und bittest ihn darum, den Geist freizulassen und dich wieder nach Hause zu transportieren. Der Magier beobachtet dich abschätzend und erklärt: "Mendrag ist seit Jahrhunderten mein Erzfeind, nur einer von uns beiden kann weiterexistieren, und ich werde ihm in Kürze alle Lebensenergie entziehen. Dir allerdings könnte ich vielleicht helfen, aber ich verlange dafür dein Schwert und alle deine Schätze"\nWirst du</text>
+		<target targetID="153">
+			<value>das Verlangte abliefern</value>
+		</target>
+		<target targetID="162">
+			<value>oder sein Ansinnen empört zurückweisen</value>
+		</target>
+	</state>
+	
+	<state stateID="145">
+		<text>Du läutest die Glocke nach Leibeskräften, und ein wuchtiges Ding-Dong tönt über Burg und Umland. Nach kurzer Zeit quellen Dutzende von Insektenkriegern aus dem Turm, um nach dem gemeldeten Feind Ausschau zu halten. Im Nu haben sie ihn gefunden und dich überwältigt. Im Kerker kannst du dir für den Rest deines Lebens Gedanken über eine geschicktere Vorgehensweise machen.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="146">
+		<text>Das Diadem ist tatsächlich ein höchst geschmackloser Modeschmuck, ganz aus Metall. Damit lassen sich die Nordlandbarbaren vielleicht beeindrucken, aber wer sonst? Enttäuscht verläßt du das Dach</text>
+		<target targetID="127">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="147">
+		<text>Du befindest dich offenbar in der Haupteingangshalle der Burg. Über ihr wölbt sich eine hohe Kuppel, in der kleine bunte Fenster für eine eigenartige Beleuchtung sorgen. Im Boden sind kleine Wasserläufe eingelassen , die den Raum angenehm kühl halten. In der gegenüberliegenden Wand siehst du ein großes Tor, das weiter in die Burgräume führt. Rechts steht in großen goldenen Lettern geschrieben: "Nimm erst die DREI, danach die VIER; dann kommst du weiter ohne Tür." Willst du</text>
+		<target targetID="176">
+			<value>geradeaus gehen</value>
+		</target>
+		<target targetID="181">
+			<value>umkehren</value>
+		</target>
+	</state>
+	
+	<state stateID="148">
+		<text>Leicht gebückt betrittst du den Seitengang. Plötzlich hörst du das Knacken eines Balkens.</text>
+		<target targetID="36">
+			<value>Geschicklichkeitsprobe gelungen</value>
+		</target>
+		<target targetID="26">
+			<value>Geschicklichkeitsprobe misslungen</value>
+		</target>
+	</state>
+	
+	<state stateID="149">
+		<text>Du steckst dein Schwert weg und gehst schnell die wenigen Meter zum Eingang. Die Tür öffnet sich ohne Schwierigkeiten, aber als du den Raum dahinter betreten hast, fällt sie hinter dir zu und bleibt fest verschlossen. Du wendest dich daher dem Zimmer zu. Bis auf eine Truhe, eine Kordel, die von der Decke herunterhängt und eine Ausgangstür auf der anderen Seite, ist es leer.\nWas wirst du tun :</text>
+		<target targetID="177">
+			<value>den Geist um Rat fragen</value>
+		</target>
+		<target targetID="158">
+			<value>die Truhe öffnen</value>
+		</target>
+		<target targetID="165">
+			<value>an der Kordel ziehen</value>
+		</target>
+		<target targetID="182">
+			<value>die Wände nach Geheimtüren absuchen</value>
+		</target>
+		<target targetID="105">
+			<value>oder den Raum durch die Ausgangstür verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="150">
+		<text>Du kommst in einen Raum, der einen riesigen Behälter mit einer trüben, süßlich riechenden Flüssigkeit beherbergt. Du kannst</text>
+		<target targetID="159">
+			<value>von der Flüssigkeit trinken</value>
+		</target>
+		<target targetID="166">
+			<value>die vom Behälter ausgehenden Rohrleitungen zerstören</value>
+		</target>
+		<target targetID="15">
+			<value>oder gleich weitergehen</value>
+		</target>
+	</state>
+	
+	<state stateID="151">
+		<text>Der Weg führt stetig nordwärts ins Gebirge hinein. Plötzlich eröffnet sich der Blick auf eine merkwürdige Burg, die ziemlich unzugänglich auf einem Hügel liegt. Offensichtlich handelt es sich um die Behausung des Magiers. Ein Kletterpfad führt zum Eingang, der aber augenscheinlich bewacht wird. Wirst du</text>
+		<target targetID="78">
+			<value>zum Haupteingang marschieren</value>
+		</target>
+		<target targetID="59">
+			<value>zur Kreuzung zurückkehren</value>
+		</target>
+		<target targetID="130">
+			<value>oder das Gelände um die Burg erkunden, um vielleicht eine andere Möglichkeit auszukundschaften</value>
+		</target>
+	</state>
+	
+	<state stateID="152">
+		<text>Mit etwas Wasser gelingt es dir leicht, die Flamme zu ersticken. Daraufbin hört die Quelle auf zu fließen, Totenstille erfüllt den Raum, und du hörst nur noch dein eigenes Herzklopfen. Willst du </text>
+		<target targetID="175">
+			<value>den Stab herausziehen</value>
+		</target>
+		<target targetID="168">
+			<value>oder die Krypta wieder verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="153">
+		<text>Befriedigt nimmt der Magier deine Wertsachen entgegen und fixiert dich mit stechenden Augen: "Und nun kommt der Zauber, den du erwartet hast!"\nEr murmelt seltsame Worte vor sich hin und vollführt merkwürdige Bewegungen, mit seinen vier Armen. Dann umgibt dich Schwärze...\n...und du wachst wieder in deinem Bett auf. Nichts erinnert mehr an deine Erlebnisse in der Burg der Insekten.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="154">
+		<text>"Eine fürchterliche Hitze ist das heute wieder, das hält man ja im Kopf nicht aus. So was aber auch, und nicht das geringste Lüftchen. Eine Affenschande, und das bei den heutigen Mietpreisen. Naja, ich zahl' ja keine, aber trotzdem, nicht einmal ein Bad gibt es hier. Zu meiner Zeit damals, als Großonkel Hugo, also vor langer Zeit, wo er von dem Hühnerhund..." hörst du den merkwüdigen kleinen Vogel vor sich hin zwitschern. Als du näherkommst schreckt er auf und sieht dich aus großen, hingebungsvoll erstaunten Augen an. Dann fängt er sofort an: "Meine Güte, ein Mensch auf dem Turm der Insektenburg, also nein, das gibt's doch nicht, das glaubt mir keiner, also was soll man dazu sagen..." Diese rhetorische Frage gibt dir die einmalige Gelegenheit, zu Wort zu kommen. Wirst du</text>
+		<target targetID="196">
+			<value>ihn füttern</value>
+		</target>
+		<target targetID="188">
+			<value>ihn freundlichen Worten anreden</value>
+		</target>
+		<target targetID="163">
+			<value>ihn mit einem kurzen Schwertschlag zum Schweigen bringen</value>
+		</target>
+		<target targetID="127">
+			<value>umkehren und dich an den Abstieg machen</value>
+		</target>
+	</state>
+	
+	<state stateID="155">
+		<text>"Ach, der grausame Magier, ein widerlicher Geselle, ich kann davon abraten , mit diesem Unhold näheren Kontakt aufzunehmen. Vielleicht verwandelt er dich ja in eine Eidechse und verfüttert dich anschließend an seine Haustiere, oder auch an die fressenden Pflanzen in seinem Labor. Ja... äh... wo er ist, drüben im anderen Turm, ganz leicht zu erreichen. Man fliegt 70 m geradeaus, dann durchs linke Fenster, ach so, unterirdisch, nein, da weiß ich nichts, da sind auch so fürchterliche Monster Großonkel Edwin meinte immer, das ist der, der mit der kleinen 78jährigen verheiratet ist, der alte Schwerenöter...\nMöchtest du</text>
+		<target targetID="136">
+			<value>das Gespräch auf den Handel bringen</value>
+		</target>
+		<target targetID="127">
+			<value>oder das Dach fluchtartig verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="156">
+		<text>Ein kurzer breiter Korridor führt dich in eine große Halle. Die Wände sind mit Fresken geschmückt, die Szenen aus dem Leben der Insekten zeigen. In der Nordwand mündet eine Rampe, die nach oben führt, aber zu steil ist, um sie emporzuklettern. Der Boden ist mit einem Mosaikmuster ausgelegt, blaue und weiße Linien kreuzen sich darauf in unregelmäßigen Abständen. Du hast nur Möglichkeit die Halle durch ein Tor auf der gegenüberliegenden Seite wieder zu verlassen</text>
+		<target targetID="170">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="157">
+		<text>Die Hügel werden langsam etwas flacher. Dein Pfad führt über einen Höhenrücken weiter nach Osten.</text>
+		<target targetID="31">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="158">
+		<text>Als du die Truhe öffnest, verschwindet die Kordel plötzlich in der Decke und kommt nicht mehr zum Vorschein. In der Truhe findet sich außer diversem Müll ein Beutel mit einem Rubin im Wert von 25 Dukaten eine Landkarte einer dir unbekannten Gegend sowie ein altes Klappmesser.\nMöchtest du nun</text>
+		<target targetID="182">
+			<value>nach Geheimtüren suchen</value>
+		</target>
+		<target targetID="105">
+			<value>den Raum verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="159">
+		<text>Das Getränk schmeckt seltsam, aber es scheint ein wirksamer und gesunder Nährtrank zu sein. Addiere drei zur Anzahl deiner momentanen Lebenspunkte.\nFalls du eine Flasche bei dir hast, kannst du sie mit der Flüssigkeit füllen. Du kannst die Flasche jederzeit austrinken, außer du befindest, dich mitten in einem Kampf. Auf diese Art erhältst du einmal drei Lebenspunkte zurück. Du kannst jetzt</text>
+		<modify name="health">
+			<value>+3</value>
+		</modify>
+		<target targetID="166">
+			<value>die Leitungen sabotieren</value>
+		</target>
+		<target targetID="15">
+			<value>weitergehen</value>
+		</target>
+	</state>
+	
+	<state stateID="160">
+		<text>Schon nach sechs Meter Weg knickt der Gang rechtwinklig nach Süden ab. Nach 18 m folgt der zweite Knick nach Westen. 24 m gehst du nach Westen, dann biegt der Gang nach Norden ab, und du erahnst in 18 m Entfernung eine Einmündung</text>
+		<target targetID="142">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="161">
+		<text>Mendrag erscheint vor dir und ruft sofort aufgeregt: "Dies ist der Stab der Schlange! Nimm ihn und befreie mich damit. Aber eile zu denn mein Widersacher bereitet Übles vor." Du folgst der Anweisung und greifst nach dem Stab der Schlange</text>
+		<target targetID="175">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="162">
+		<text>Empört lehnst du es ab, dich von deinen wohlverdienten Schätzen zu trennen. "Soso", zischt der Magier, "du willst also dein Raubgut nicht hergeben . Dann werde ich dich dazu zwingen!" Mit fremdartigen Worten und Gesten vollführt er einen Zauber, und das Zimmer wächst und wächst.\nDeine Ausrüstung liegt verstreut um dich herum, und dir wird klar daß du in eine Eidechse verwandelt worden bist!\nGrinsend nimmt dich der Magier auf und meint: "Ei da wird Putzi aber freuen - so zart und saftig."</text>
+		<target targetID="999">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="163">
+		<text>Ein kurzer Schlag mit der blanken Klinge, und der possierliche Vogel ist nur noch ein blutiges Federbündel. Für diese feige mußt du dir einen Punkt von deinem Mutwert abziehen. Da die Durchsuchung des Nestes auch nichts Interessantes erbringt, kehrst du entmutigt wieder um</text>
+		<modify name="bravery">
+			<value>-1</value>
+		</modify>
+		<target targetID="127">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="164">
+		<text>Du befindest dich offenbar in der Haupteingangshalle der Burg. Über ihr wölbt sich eine hohe Kuppel, in der kleine bunte Fenster für eine eigenartige Beleuchtung sorgen. Im Boden sind kleine Wasserläufe eingelassen, die den Raum angenehm kühl halten. In der linken Wand führt ein großes Tor weiter, rechts siehst du eine halboffene Holztür. Auf der gegenüberliegenden Wand steht in Goldlettern geschrieben: "Nimm erst die DREI, danach VIER; dann kommst du weiter ohne Tür."\nMöchtest du</text>
+		<target targetID="176">
+			<value>nach links</value>
+		</target>
+		<target targetID="181">
+			<value>nach rechts</value>
+		</target>
+	</state>
+	
+	<state stateID="165">
+		<text>Du ziehst an der Kordel, und ein durchdringendes, schrilles Klingeln ertönt. Ein lautes Klack in der Truhe veranlaßt dich zu einer weiteren Steigerung deiner Herzfrequenz.\nWillst du</text>
+		<target targetID="171">
+			<value>die Truhe öffnen</value>
+		</target>
+		<target targetID="182">
+			<value>nach Geheimtüren suchen</value>
+		</target>
+		<target targetID="105">
+			<value>den Raum verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="166">
+		<text>Mit kräftigen Schwerthieben zertrennst du eine Rohrleitung nach der anderen. Das elastische, korkähnliche Material setzt dir keinen großen Widerstand entgegen. Aber offenbar ist dein Vandalismus nicht unbemerkt geblieben. Die Tür öffnet sich plötzlich, und ein Trupp Insekten will die Ursache der Störung erkunden. Den sofort entbrennenden Kampf kannst du wegen der Übermacht deiner Gegner nicht gewinnen. Deine Leiche wird in den Gärbottich ich geworfen und später einmal anderen zur kräftigenden Erfrischung dienen.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="167">
+		<text>Du folgst dem Gang 18 m ins Ungewisse, bevor er nach links abbiegt. Nach weiteren 24 m knickt er abermals nach links ab, worauf du ihm nochmals 18m folgst, bevor er zum letztenmal nach links abbiegt. Nach sechs Metern gelangst du an eine Einmündung</text>
+		<target targetID="68">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="168">
+		<text>Du steigst die Treppenstufen zum Tempel hoch und erreichst ohne Schwierigkeiten den Ausgang.</text>
+		<target targetID="6">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="169">
+		<text>Vor dir liegt die Leiche deines Gegners. Mit seinem Tode sind auch die magischen Sperren um das Gefängnis Mendrags verschwunden, und er materialisiert sofort neben dir. Händereibend betrachtet er das magische Labor seines Erzfeindes. Welche Schätze hier für einen übersinnlich Begabten aufgehäuft liegen!\nEr dankt dir für deine Hilfe, und mit wenigen, aber mächtigen Zauberworten versetzt er dich wieder nach Hause zurück. Du liegst wieder in deinem Bett und fragst dich, ob dieses phantastische Geschehen Wirklichkeit gewesen sein kann.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="170">
+		<text>Du befindest dich offenbar in der Haupteingangshalle der Burg. Über ihr wölbt sich eine hohe Kuppel, in der kleine bunte Fenster für eine eigenartige Beleuchtung sorgen. Im Boden sind kleine Wasserläufe eingelassen, die den Raum angenehm kühl halten.\nIn der gegenüberliegenden Wand siehst du eine halboffene Holztür, an der Wand links steht in Goldbuchstaben geschrieben: "Nimm erst die DREI, danach die VIER; dann kommst du weiter ohne Tür."</text>
+		<target targetID="181">
+			<value>Gerade aus gehen</value>
+		</target>
+	</state>
+	
+	<state stateID="171">
+		<text>Die Truhe ist fest verriegelt und läßt sich nicht öffnen.</text>
+		<target targetID="182">
+			<value>Nach Geheimtüren suchen</value>
+		</target>
+		<target targetID="105">
+			<value>Den Raum verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="172">
+		<text>Den Windungen des Pfades folgend, marschierst du eine ganze Weile ohne Zwischenfälle.</text>
+		<target targetID="120">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="173">
+		<text>Der Gang erweitert sich zu einer länglichen Höhle. In Regalen links und rechts sind Pilzkulturen angelegt. Die Pilze sind von einer merkwürdigen kleinen gelben Sorte, die du nicht kennst. Auf einem Tisch vor einem der Regale ist in einer Schüssel ein Pilzbrei angerichtet, der leicht vermodert riecht.</text>
+		<target targetID="178">
+			<value>Von dem Brei essen.</value>
+		</target>
+		<target targetID="183">
+			<value>Einen Pilz pflücken.</value>
+		</target>
+		<target targetID="187">
+			<value>Eine Pilzkultur mit Lampenöl übergießen und anzünden.</value>
+		</target>
+		<target targetID="15">
+			<value>Weitergehen.</value>
+		</target>
+	</state>
+	
+	<state stateID="174">
+		<text>Nach 18m knickt der Gang rechtwinklig nach rechts ab, von da aus gehst du nochmals 18 Meter bis zu einer Kreuzung</text>
+		<target targetID="68">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="175">
+		<text>Du ziehst kräftig an dem Stab, aber er bewegt sich keinen Daumenbreit. Da erscheint plötzlich ein grauenerregender Dämon aus dem Nichts und baut sich unheildrohend vor dir auf: "Nicht so schnell, Fremder. Ich bin der Wächter des Stabes, und nur wer mir eine Frage richtig beantwortet, darf ihn nehmen. Antwortest du aber falsch, wirst du ewig in der Verdammnis schmoren! Bist du bereit, zu antworten?"</text>
+		<target targetID="180">
+			<value>Frage beantworten.</value>
+		</target>
+		<target targetID="168">
+			<value>Den Rückzug antreten.</value>
+		</target>
+	</state>
+	
+	<state stateID="176">
+		<text>Du betrittst eine große Halle, deren Wände mit Fresken geschmückt sind. Sie zeigen Szenen aus dem Leben der Insekten, die die Burg bewohnen. Der Mosaikfußboden zeigt blaue und weiße Linien, die sich unregelmäßig kreuzen. In der Nordwand mündet eine aufwärts führende Rampe, die allerdings zu steil ist, um sie emporzuklettern. Daher bleibt dir nur das Tor in der Wand gegenüber</text>
+		<target targetID="15">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="177">
+		<text>Mendrag materialisiert leicht verschwommen im Raum, um auf deine Fragen zu antworten. Aber er kann dir nur den Rat geben, die Truhe zu öffnen und dich zu beeilen, da der Magier Schlimmes im Schilde führt. Denke daran, daß der Geist dir nun nicht mehr zu Hilfe kommen kann!</text>
+		<target targetID="165">
+			<value>An der Kordel ziehen.</value>
+		</target>
+		<target targetID="158">
+			<value>Die Truhe öffnen</value>
+		</target>
+		<target targetID="182">
+			<value>Nach Geheimtüren suchen.</value>
+		</target>
+		<target targetID="105">
+			<value>Die Ausgangstüre benutzen.</value>
+		</target>
+	</state>
+	
+	<state stateID="178">
+		<text>Das Pilzgericht schmeckt fade, und du kannst nicht mehr als einen Löffel davon essen.</text>
+		<target targetID="183">
+			<value>Einen Pilz pflücken.</value>
+		</target>
+		<target targetID="187">
+			<value>Eine Kultur anzünden.</value>
+		</target>
+		<target targetID="15">
+			<value>Die Höhle verlassen</value>
+		</target>
+	</state>
+	
+	<state stateID="179">
+		<text>Nachdem du 18m nach Norden gegangen bist, biegt der Gang in Richtung Westen ab. Nach weiteren 18 Metern Wegstrecke gelangst du an eine Kreuzung.</text>
+		<target targetID="88">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="180">
+		<text>"So höre denn!" dröhnt der Dämon und hält plötzlich ein Tablett in der Hand, auf dem drei Edelsteine ruhen. "Wähle einen dieser Steine und mögen deine Götter dir beistehen, daß es der richtige sei!"\nDu siehst vor dir einen kristallklaren Diamant. Weiß wie Eis und Schnee, wie die kalten Winde des Nordlandes, der Heimat der Tempelbauer. Wird seine kalt glitzernde Pracht auch dich betören?\nOder wählst du den Rubin? Rot wie die Sonne am Himmel, wenn der Tag sich zur Ruhe neigt, heiß verbrennend alles, was an Leben sich zu nahe an ihn heranwagt.\nDer dritte Stein vor dir ist ein Smaragd. Grün funkelnd, die Farbe der Vegetation, des Lebens an sich, Oase für schwirrende Gedanken und Sehnsüchte.\nDu wählst:</text>
+		<target targetID="184">
+			<value>Den Diamanten.</value>
+		</target>
+		<target targetID="197">
+			<value>Den Rubin.</value>
+		</target>
+		<target targetID="192">
+			<value>Den Smaragd.</value>
+		</target>
+	</state>
+	
+	<state stateID="181">
+		<text>Du kommst in eine große Höhle, deren Wände keine Spuren einer Bearbeitung ausweisen. Einige mächtige Stalaktiten hängen von der Decke, ständig rieseln Wassertropfen an ihnen herunter. Über dir kannst du einen Vorsprung erkennen, hinter dem undeutlich ein Eingang zu erahnen ist, aber es ist nicht möglich, dort hochzuklettern. Also nimmst du den Weg durch einen kleinen Seitengang, der links von dir in den Felsen hineinführt</text>
+		<target targetID="19">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="182">
+		<text>Sorgfältig suchst du die Wände ab.</text>
+		<target targetID="186">
+			<value>Weiter (1-2)</value>
+		</target>
+		<target targetID="190">
+			<value>Weiter (3-6)</value>
+		</target>
+	</state>
+	
+	<state stateID="183">
+		<text>Bei der Berührung explodiert der Pilz plötzlich und setzt eine Sporenwolke frei. In einer Art Kettenreaktion breiten sich die Explosionen in der Kultur aus und greifen sogar auf Nachbarregale über. Die Sporen erfüllen die Höhle mit einer ungeheuren Geschwindigkeit. Keuchend und hustend schleppst du dich in Richtung Ausgang, dabei verlierst du 5 Lebenspunkte. Unter großen Schwierigkeiten rettest du dich hinaus</text>
+		<modify name="health">
+			<value>-5</value>
+		</modify>
+		<target targetID="15">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="184">
+		<text>Etwas unsicher legst du die Hand auf den Diamanten. Leicht enttäuscht meint der Dämon: "Du hast richtig geraten, Fremder. Wie das Insektenvolk stammt auch der Stab der Schlange aus dem eisigen Norden und wartet auf den Tag, da ein Kundiger sich durch sein Wissen ausweist und ihn wieder in seine Heimat mitnimmt." Der Dämon und die Edelsteine verschwinden wieder</text>
+		<target targetID="66">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="185">
+		<text>Gerade als du die Hand nach der ersten Blume ausstreckst, ertönt eine magische Stimme: "Blumen pflücken verboten!" Eingeschüchtert läßt du von deinem frevlerischen Vorhaben ab und entscheidest dich statt dessen dazu:</text>
+		<target targetID="16">
+			<value>Ein Bad zu nehmen.</value>
+		</target>
+		<target targetID="6">
+			<value>Nach Norden gehen.</value>
+		</target>
+		<target targetID="13">
+			<value>Nach Osten gehen.</value>
+		</target>
+	</state>
+	
+	<state stateID="186">
+		<text>Als du eine leichte Erhebung der Rückwand berührst, schwingt geräuschlos eine bisher verborgene Tür auf. Du entzündest deine Laterne und betrittst einen schmalen, modrig riechenden Gang. Hinter dir schließt sich die Tür wieder.</text>
+		<target targetID="129">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="187">
+		<text>Der Pilz schmort unter penetranter Geruchsentwicklung vor sich hin, weiter kannst du nichts feststellen. Als du ihn näher anschauen willst, berührst du eines der anderen Exemplare.</text>
+		<target targetID="183">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="188">
+		<text>Auf deinen freundlichen Gruß antwortet der kleine Vogel mit einem begeisterten Wortgezwitscher, in dem die Freude eine Rolle spielt, in dieser unkultivierten Gegend einen gebildeten Gesprächspartner zu finden, sowie die Schwierigkeiten des heutigen Lebens im allgemeinen und im besonderen, außerdem noch...</text>
+		<target targetID="193">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="189">
+		<text>Du holst den Stab aus deiner Ausrüstung, und sofort brechen die magischen Sperren: Mendrag ist frei!\nEr bedankt sich bei dir und meint, er würde jetzt mit seinem Gegner endgültig abrechnen.\nVorher aber spricht er geheimnisvolle Zauberworte und du spürst, wie du ein weiteres Mal magisch transportiert wirst. Du liegst wieder in deinem gewohnten Bett und hast dein ungewöhnliches Abenteuer heil überstanden.</text>
+		<target targetID="999">
+			<value>ENDE</value>
+		</target>
+	</state>
+	
+	<state stateID="190">
+		<text>Deine Suche bleibt erfolglos, enttäuscht wendest du dich wieder dem Raum zu. Du kannst hier nicht noch einmal nach Geheimtüren suchen.</text>
+		<target targetID="149">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="191">
+		<text>Du rutschst die Rampe etwa zwanzig Meter entlang und landest etwas unsanft, aber wohlbehalten in einer großen Halle. Die Wände sind mit Fresken geschmückt, die Szenen aus dem Alltagsleben der Insekten darstellen. Der Boden ist aus bunten Mosaiksteinen zusammengesetzt, er zeigt sich kreuzende blaue und weiße Linien. In den beiden Seitenwänden befinden sich zwei Tore.</text>
+		<target targetID="15">
+			<value>Das rechte Tor.</value>
+		</target>
+		<target targetID="170">
+			<value>Das linke Tor.</value>
+		</target>
+	</state>
+	
+	<state stateID="192">
+		<text>Schließlich hast du dich entschlossen und nennst den Smaragden. Bekümmert nickt der Dämon: "Die Farbe des Lebens wählst du. Und damit rätst du richtig, denn der Tempel, sein Vorraum und seine Diener sind der Gottheit des Lebens geweiht. Sie bringt Blumen und Sträucher mannigfaltig hervor und hat geheimnisvolle Kräfte in diesem Stab konzentriert." Der Dämon und seine Edelsteine verschwinden so plötzlich wie sie gekommen sind.</text>
+		<target targetID="66">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="193">
+		<text>Da dieses anatomische Wunder offenbar nicht Luft holen muß, unterbrichst du schon beinahe unhöflich und fragst ihn nach:</text>
+		<target targetID="155">
+			<value>dem Aufenthaltsort des Magiers</value>
+		</target>
+		<target targetID="136">
+			<value>schlägst ihm einen Tauschhandel vor</value>
+		</target>
+		<target targetID="198">
+			<value>oder bittest ihn, dir einen Schwank aus seiner Jugendzeit zu erzählen.</value>
+		</target>
+	</state>
+	
+	<state stateID="194">
+		<text>Es kommt zum Kampf mit den Insektenkriegern</text>
+		<enemy name="Insektenkrieger">
+			<skill bravery="10"></skill>
+			<skill hitpoints="11"></skill>
+			<skill attack="4"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="2"></skill>
+			<skill parry="3"></skill>
+			<skill armor="2"></skill>
+		</enemy>
+		<enemy name="Insektenkrieger">
+			<skill bravery="10"></skill>
+			<skill hitpoints="12"></skill>
+			<skill attack="4"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="2"></skill>
+			<skill parry="3"></skill>
+			<skill armor="2"></skill>
+		</enemy>
+		<target targetID="74">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="195">
+		<text>Genießerisch wälzt du dich weiter durch die Wellen, als plötzlich ein Raubfisch herbeischießt und dich in empfindliche Teile beißt. Offenbar hat ihn deine ungewohnte Anwesenheit beunruhigt. Sofort verschwindet er wieder in seinem Versteck, und du kannst dich ans Ufer retten</text>
+		<modify name="health">
+			<value>99</value>
+		</modify>
+		<target targetID="90">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="196">
+		<text>Du bietest ihm mit freundlichem Putt-Putt einige Krümel deiner eisernen Reserve an. Der Vogel probiert einmal und fängt gleich an zu kreischen: "So ein Saufraß! Das kriegt ja kein Schwein runter! Hältst du mich für einen primitiven Vielfraß? Wenn ich da vergleichsweise an die Küche meiner verehrten Frau Großmutter denke, weichgekochter Mais mit Knoblauchsauce, Dillspitzen in Majoran und Knierskraut, gelierte Regenwürmer..."\nMöchtest du:</text>
+		<target targetID="163">
+			<value>ihm für dieses Verhalten dein Schwert zu kosten geben</value>
+		</target>
+		<target targetID="193">
+			<value>es weiter mit einem Gespräch versuchen</value>
+		</target>
+	</state>
+	
+	<state stateID="197">
+		<text>Mit zitternder Hand deutest du auf den Rubin. Da brüllt der Dämon auf: "Er rät es. Ja, der Rubin ist das Abzeichen unserer Gottheit, der Tempel und Stab geweiht sind. So nimm hin den Stab, eines Tages werden wir uns wiederbegegnen!" Mit diesen unheilverkündenden Worten verschwinden Dämon und Edelsteine.</text>
+		<target targetID="66">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="198">
+		<text>Der Vogel ist gerührt, schon lange hat ihn keiner mehr gebeten, aus seinem reichen Fundus von Anekdoten etwas zum besten zu geben. Und er erzählt von seiner Jugendzeit (während die Jugend von heute ja bekanntlich...), der Geschichte seiner weitverzweigten Sippe seit Uropa Heinrich (der mit einer unbekannten Schönen durchgebrannt ist...), die Schwierigkeiten des heutigen Lebens werden ebenfalls gebührend gewürdigt. Nach ungefähr zwei Stunden kommst du für einen Moment zu Wort und bedankst und verabschiedest dich. Aus Dankbarkeit für dein tapferes Ausharren schenkt er dir eine elfenbeinerne Figur, die eine reizende kleine Vogeltänzerin darstellt.</text>
+		<target targetID="127">
+			<value>Weiter</value>
+		</target>
+	</state>
+	
+	<state stateID="199">
+		<text>Du kämpfst mit dem Magier, der nicht nur mit zwei Waffen nach dir schlägt, sondern auch jede dritte Kampfrunde einen Feuerball nach dir schleudert!</text>
+		<enemy name="Magier">
+			<skill bravery="13"></skill>
+			<skill hitpoints="30"></skill>
+			<skill attack="5"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="2"></skill>
+			<skill parry="4"></skill>
+			<skill armor="3"></skill>
+		</enemy>
+		<enemy name="Magier">
+			<skill bravery="13"></skill>
+			<skill hitpoints="30"></skill>
+			<skill attack="4"></skill>
+			<skill damageDice="1"></skill>
+			<skill damageBonus="2"></skill>
+			<skill parry="0"></skill>
+			<skill armor="99"></skill>
+		</enemy>
+		<target targetID="169">
+			<value>Gewonnen</value>
+		</target>
+		<target targetID="999">
+			<value>Tod</value>
+		</target>
+	</state>
+	
+	<state stateID="999">
+		<text>Dein Leben endet... auf die eine oder andere Art.\nUnd damit auch dieses Spiel!</text>
+		<target targetID="0">
+			<value>Auf wiedersehen!</value>
+		</target>
+	</state>
+</MendraksRuf>
+
+
+<!--
+	<state stateID="">
+		<text></text>
+		<target targetID="">
+			<value></value>
+		</target>
+	</state>
+-->
